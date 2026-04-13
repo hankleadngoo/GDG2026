@@ -1,0 +1,94 @@
+{
+  "version": 3,
+  "skills": {
+    "find-skills": {
+      "source": "vercel-labs/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/skills.git",
+      "skillPath": "skills/find-skills/SKILL.md",
+      "skillFolderHash": "3013fdeb8a11b10b1eb795ec3ae8bfca38f7c26d",
+      "installedAt": "2026-04-11T04:28:03.982Z",
+      "updatedAt": "2026-04-11T04:28:03.982Z"
+    },
+    "fastapi-python": {
+      "source": "mindrally/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/mindrally/skills.git",
+      "skillPath": "fastapi-python/SKILL.md",
+      "skillFolderHash": "e56436295fccaae0044ec74983246e25e3e4d900",
+      "installedAt": "2026-04-11T04:59:43.456Z",
+      "updatedAt": "2026-04-11T04:59:43.456Z"
+    },
+    "langgraph": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/bobmatnyc/claude-mpm-skills.git",
+      "skillPath": "toolchains/ai/frameworks/langgraph/SKILL.md",
+      "skillFolderHash": "78efb6d532c6dda55fccf6bd49e2fbd42ea5f7c6",
+      "installedAt": "2026-04-11T04:59:58.373Z",
+      "updatedAt": "2026-04-11T04:59:58.373Z"
+    },
+    "multi-agent-patterns": {
+      "source": "sickn33/antigravity-awesome-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/sickn33/antigravity-awesome-skills.git",
+      "skillPath": "skills/multi-agent-patterns/SKILL.md",
+      "skillFolderHash": "b201569f03bdeed7e7b4eb7b17871d2c9851d883",
+      "installedAt": "2026-04-11T05:00:39.191Z",
+      "updatedAt": "2026-04-11T05:00:39.191Z"
+    },
+    "vertex-ai-api-dev": {
+      "source": "google-gemini/gemini-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/google-gemini/gemini-skills.git",
+      "skillPath": "skills/vertex-ai-api-dev/SKILL.md",
+      "skillFolderHash": "e90862d933d7e46d186b04c6e0177df60e124b8c",
+      "installedAt": "2026-04-11T05:04:34.628Z",
+      "updatedAt": "2026-04-11T05:04:34.628Z"
+    },
+    "pytest": {
+      "source": "bobmatnyc/claude-mpm-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/bobmatnyc/claude-mpm-skills.git",
+      "skillPath": "toolchains/python/testing/pytest/SKILL.md",
+      "skillFolderHash": "73c9a9543b47eba58fb22be71fc00d4ed7889d6f",
+      "installedAt": "2026-04-11T05:04:50.262Z",
+      "updatedAt": "2026-04-11T05:04:50.262Z"
+    },
+    "nextjs-react-typescript": {
+      "source": "mindrally/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/mindrally/skills.git",
+      "skillPath": "nextjs-react-typescript/SKILL.md",
+      "skillFolderHash": "4b2eed815e8e783de4669fe6c3945eab8316d309",
+      "installedAt": "2026-04-11T05:04:59.630Z",
+      "updatedAt": "2026-04-11T05:04:59.630Z"
+    },
+    "devops-cicd": {
+      "source": "miles990/claude-software-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/miles990/claude-software-skills.git",
+      "skillPath": "software-engineering/devops-cicd/SKILL.md",
+      "skillFolderHash": "7bff1a772d13a309b232d6374c65a62dfcc0e30d",
+      "installedAt": "2026-04-11T05:05:17.186Z",
+      "updatedAt": "2026-04-11T05:05:17.186Z"
+    }
+  },
+  "dismissed": {
+    "findSkillsPrompt": true
+  },
+  "lastSelectedAgents": [
+    "amp",
+    "antigravity",
+    "cline",
+    "codex",
+    "cursor",
+    "deepagents",
+    "firebender",
+    "gemini-cli",
+    "github-copilot",
+    "kimi-cli",
+    "opencode",
+    "warp"
+  ]
+}
