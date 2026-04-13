@@ -1,0 +1,2268 @@
+[
+  {
+    "candidate": {
+      "full_name": "NGUYỄN VĂN THÀNH",
+      "email": null,
+      "phone": null,
+      "location": "Phường Lái Thiêu, Thuận An, Bình Dương",
+      "summary": "Tôi mong muốn làm việc trong môi trường lập trình chuyên nghiệp, ở đó tôi có thể phát triển kỹ năng chuyên môn, học hỏi thêm kiến thức lập trình mới để hoàn thành xuất sắc công việc được giao.\nMục tiêu trong 1 năm tới, tôi sẽ trở thành người quản lý dự án."
+    },
+    "social_links": {
+      "linkedin": null,
+      "github": null,
+      "facebook": null,
+      "portfolio": null,
+      "other": []
+    },
+    "education": [
+      {
+        "institution": "ĐẠI HỌC KINH TẾ - KỸ THUẬT BÌNH DƯƠNG",
+        "degree": null,
+        "major": "Công nghệ thông tin",
+        "gpa": "Khá",
+        "start_year": null,
+        "end_year": null
+      }
+    ],
+    "work_experience": [
+      {
+        "company": "Ngân Hàng Xây Dựng – CBBANK",
+        "role": "Chuyên viên cao cấp",
+        "start_date": "08/2018",
+        "end_date": "02/2021",
+        "is_current": false,
+        "responsibilities": [
+          "Các hệ thống tham gia:",
+          "LOS: Hệ thống khởi tạo khoản vay (Loan Origination System – LOS) là một giải pháp quản lý quy trình khởi tạo khoản vay phục vụ cho ngành ngân hàng.",
+          "ECM: Hệ thống yêu cầu hỗ trợ từ các phòng ban theo phiếu Yêu cầu hỗ trợ được thực hiện theo quy trình.",
+          "Eoffice: Hệ thống quản lý công việc (Giao công việc – Trình văn bản, DMS).",
+          "Tham gia phát triển những tính năng hệ thống theo yêu cầu của nghiệp vụ dựa vào quy trình phát triển phần mềm thông qua SRS, URD, hệ thống phát triển dựa trên quy trình, Form biễu mẫu trong Workflow BPM.",
+          "Tham gia phát triển hệ thống Quản lý quy trình Workflow: hệ thống quản lý những quy trình thuộc các nghiệp vụ bao gồm: Form biểu mẫu, công thức, config option, cây tổ chức."
+        ],
+        "company_url": null
+      },
+      {
+        "company": "Ngân Hàng Sài Gòn – SCB",
+        "role": "Chuyên viên Chính",
+        "start_date": "03/2021",
+        "end_date": "04/2022",
+        "is_current": false,
+        "responsibilities": [
+          "Các hệ thống tham gia:",
+          "Tham gia phát triển hệ thống ngân quỹ quản lý xuất, nhập kho, điều động tiền, quản lý số lượng tờ các mệnh giá tiền trong kho."
+        ],
+        "company_url": null
+      },
+      {
+        "company": "Ngân Hàng Xây Dựng – CBBANK",
+        "role": "Trưởng nhóm",
+        "start_date": "05/2022",
+        "end_date": "2/2024",
+        "is_current": false,
+        "responsibilities": [
+          "Các hệ thống tham gia:",
+          "Hệ thống HRM: Xây dựng hệ thống HRM quản lý nhân sự, quản lý quy trình: tuyển dụng, điều động, bổ nhiệm, giao việc, trình văn bản,...",
+          "Hệ thống Collection: Xây dựng hệ thống quản lý nợ theo quy trình, giảm miễm lãi, cung cấp API cho APP Mobi.",
+          "Hệ thống Eoffice: năng cấp hệ thống",
+          "Tham gia phát triển (HRM, Collection, Eoffice) những tính năng hệ thống theo yêu cầu của nghiệp vụ dựa vào quy trình phát triển phần mềm thông qua SRS, URD, hệ thống phát triển dựa trên quy trình, Form biễu mẫu trong Workflow BPM",
+          "Tham gia xây dựng chuyển đổi số năng cấp hệ thống CoreBanking mới CBBANK:",
+          "Tham gia kiểm thử CoreBanking cùng đối tác",
+          "Tích hợp các API từ hệ thống CoreBanking mới vào hệ thống nội bộ và kiểm thử: TMS, COLLECTION, HRM, CBCHOICE",
+          "Tích hợp các API từ hệ thống CoreBanking mới vào hệ thống thanh toán và kiểm thử: APP - MB (CBWAY), SMS, CARD, CMS MB",
+          "Năng cấp hệ thống quản lý Workflow BPM"
+        ],
+        "company_url": null
+      }
+    ],
+    "projects": [],
+    "skills": {
+      "languages": [
+        "Javascript",
+        "HTML",
+        "CSS"
+      ],
+      "frameworks": [
+        ".NetCore",
+        "MVC",
+        "Entity Framework",
+        "Dapper ORM",
+        "NHibernate",
+        "Nestjs",
+        "ReactJS",
+        "Knockoutjs",
+        "Jquery"
+      ],
+      "tools": [
+        "Node js",
+        "GIT",
+        "TFS",
+        "MS SQL",
+        "MYSQL",
+        "Mongodb",
+        "Oracle"
+      ],
+      "other": []
+    },
+    "certifications": [],
+    "languages_spoken": [],
+    "metadata": {
+      "source_file": "4120a6d6-9867-42b0-8a84-4b7c11104277.pdf",
+      "parse_method": "llamaparse",
+      "extraction_model": "gemini-2.5-flash",
+      "extracted_at": "2026-04-12T04:42:27.278111+00:00",
+      "warnings": []
+    },
+    "_osint_targets": {
+      "candidate_name": "NGUYỄN VĂN THÀNH",
+      "social_links": {
+        "linkedin": null,
+        "github": null,
+        "facebook": null,
+        "portfolio": null,
+        "other": []
+      },
+      "project_links": [],
+      "employers": []
+    },
+    "_all_urls": []
+  },
+  {
+    "candidate": {
+      "full_name": "NGUYỄN TUẤN HUY",
+      "email": null,
+      "phone": null,
+      "location": "Số 1 Ngõ 102 Trường Chinh Đống Đa Hà Nội",
+      "summary": "Ổn định lâu dài"
+    },
+    "social_links": {
+      "linkedin": null,
+      "github": null,
+      "facebook": null,
+      "portfolio": null,
+      "other": []
+    },
+    "education": [
+      {
+        "institution": "ĐẠI HỌC BÁCH KHOA HÀ NỘI",
+        "degree": "Thạc sĩ",
+        "major": "Công nghệ thông tin",
+        "gpa": "Khá",
+        "start_year": null,
+        "end_year": null
+      }
+    ],
+    "work_experience": [
+      {
+        "company": "MOCAP VN",
+        "role": "Part time",
+        "start_date": null,
+        "end_date": null,
+        "is_current": false,
+        "responsibilities": [
+          "Thực hiện công việc chỉnh sửa ảnh trên các phần mềm chuyên dụng: Photoshop, Light room, Camera Raw theo yêu cầu của khách hàng nước ngoài và quản lý.",
+          "Thực hiện các công việc khác theo yêu cầu của quản lý."
+        ],
+        "company_url": null
+      },
+      {
+        "company": "CÔNG TY CỔ PHẦN CÔNG NGHỆ MẠNG VÀ TRUYỀN THÔNG INFONET",
+        "role": "Cán Bộ Kỹ Thuật",
+        "start_date": null,
+        "end_date": null,
+        "is_current": false,
+        "responsibilities": [
+          "Triển khai lắp đặt đường truyền internet và dịch vụ viễn thông.",
+          "Cài đặt, hướng dẫn khách hàng sử dụng các thiết bị Modem wifi, đầu thu Truyền hình FPT.",
+          "Bảo trì, kiểm tra, sửa chữa đường dây dẫn tín hiệu và thiết bị đã được lắp đặt cho khách hàng."
+        ],
+        "company_url": null
+      },
+      {
+        "company": "TRUNG TÂM TÍNH CƯỚC VÀ THANH KHOẢN MOBIFONE",
+        "role": "Cán Bộ Kỹ Thuật",
+        "start_date": null,
+        "end_date": null,
+        "is_current": false,
+        "responsibilities": [
+          "Vận hành khai thác cơ sở dữ liệu DSS, DWH",
+          "Cung cấp số liệu phục vụ các báo cáo, CTKM, các chương trình khẩn cấp của TCT",
+          "Cung cấp danh sách thuê bao trả trước phục vụ nhắn tin quảng bá các chương trình khuyến mại.",
+          "Viết thủ tục tự động kết xuất dữ liệu"
+        ],
+        "company_url": null
+      },
+      {
+        "company": "NGÂN HÀNG QUÂN ĐỘI MBBANK",
+        "role": "Developer",
+        "start_date": null,
+        "end_date": null,
+        "is_current": false,
+        "responsibilities": [
+          "Xây dựng các báo cáo cho ngân hàng MB bằng BI pulisher",
+          "ETL dữ liệu.",
+          "Hỗ trợ vận hành dữ liệu.",
+          "Phân tích dữ liệu."
+        ],
+        "company_url": null
+      }
+    ],
+    "projects": [],
+    "skills": {
+      "languages": [],
+      "frameworks": [],
+      "tools": [
+        "WORD",
+        "EXCEL",
+        "POWERPOINT",
+        "OUTLOOK",
+        "Photoshop",
+        "Light room",
+        "Camera Raw",
+        "BI pulisher",
+        "ETL"
+      ],
+      "other": [
+        "Làm việc độc lập",
+        "làm việc nhóm",
+        "Tự trao đổi kĩ năng nghề nghiệp",
+        "Ham học hỏi",
+        "không ngại khó",
+        "áp lực"
+      ]
+    },
+    "certifications": [],
+    "languages_spoken": [
+      {
+        "language": "Tiếng Anh",
+        "proficiency": null
+      }
+    ],
+    "metadata": {
+      "source_file": "421dbe6e-07d2-4e55-bce4-ba05c2e2e15e.pdf",
+      "parse_method": "llamaparse",
+      "extraction_model": "gemini-2.5-flash",
+      "extracted_at": "2026-04-12T04:42:25.007912+00:00",
+      "warnings": []
+    },
+    "_osint_targets": {
+      "candidate_name": "NGUYỄN TUẤN HUY",
+      "social_links": {
+        "linkedin": null,
+        "github": null,
+        "facebook": null,
+        "portfolio": null,
+        "other": []
+      },
+      "project_links": [],
+      "employers": []
+    },
+    "_all_urls": []
+  },
+  {
+    "candidate": {
+      "full_name": "Lò Thanh Dương",
+      "email": null,
+      "phone": null,
+      "location": "Tây Mỗ - Nam Từ Liêm - Hà Nội",
+      "summary": "Trong cuộc sống thường ngày là một người vui vẻ, hòa đồng thích giao tiếp với mọi người về nhiều lĩnh vực khác nhau đặc biệt về công nghệ. Trong công việc luôn làm việc với thái độ nghiêm túc, có trách nhiệm. Sẵn sàng giúp đỡ, chia sẻ và học hỏi kiến thức cùng với mọi người."
+    },
+    "social_links": {
+      "linkedin": null,
+      "github": null,
+      "facebook": null,
+      "portfolio": null,
+      "other": []
+    },
+    "education": [
+      {
+        "institution": "CAO ĐẲNG FPT POLYTECHNIC",
+        "degree": null,
+        "major": "lập trình thiết bị di động",
+        "gpa": null,
+        "start_year": 2014,
+        "end_year": 2017
+      }
+    ],
+    "work_experience": [
+      {
+        "company": "Công ty tập đoàn công nghệ Thăng Long.",
+        "role": "NHÂN VIÊN .NET, ANGULAR, FRONT-END",
+        "start_date": "03/2021",
+        "end_date": "06/2021",
+        "is_current": false,
+        "responsibilities": [
+          "Bảo trì các store sqlserver",
+          "Viêt api kêt nối font-end cho web app và mobile app.",
+          "Chức năng báo cáo với DevExpress."
+        ],
+        "company_url": null
+      },
+      {
+        "company": "Công ty CP CÔNG NGHỆ VÀ GIÁO DỤC PCA",
+        "role": "NHÂN VIÊN LẬP TRÌNH WEBSITE C# MVC, .NET",
+        "start_date": "07/2018",
+        "end_date": "03/2021",
+        "is_current": false,
+        "responsibilities": [
+          "Phát triển các dự án, phần mềm của công ty sử dụng C#, .NET.",
+          "Viết API, phát triển phần mềm quản lý CMS với mã nguồn mở Kooboo CMS ...",
+          "Sử dụng Entity Framework trong việc kết nối CSDL.",
+          "Được phát triển dự án được custom từ core Nopcommerce từ đó được biết DI design pattern.",
+          "Sử dụng CSDL SqlServer, MongoDB.",
+          "Lập trình front-end với bootstrap, Angularjs, sử dụng giao diện SmartAdmin."
+        ],
+        "company_url": null
+      }
+    ],
+    "projects": [
+      {
+        "name": "Phát triển website chăm sóc khách hàng all in one phát triển Chatbox - SignalR, facebook, zalo, quản trị CMS.",
+        "description": "dự án được phát triển bởi team 6 người.",
+        "tech_stack": [
+          ".NET Framework",
+          "SignalR",
+          "SqlServer",
+          "MongoDB",
+          "Javascript",
+          "angularjs"
+        ],
+        "links": {
+          "github": null,
+          "demo": null,
+          "other": []
+        },
+        "role": "dev"
+      },
+      {
+        "name": "Phát triển hệ thống api trên mã nguồn mở Kooboo CMS.",
+        "description": null,
+        "tech_stack": [
+          ".NET Framework",
+          "SignalR",
+          "SqlServer",
+          "MongoDB",
+          "Javascript",
+          "angularjs"
+        ],
+        "links": {
+          "github": null,
+          "demo": null,
+          "other": []
+        },
+        "role": "bảo trì và cập nhật các chức năng mới."
+      }
+    ],
+    "skills": {
+      "languages": [
+        "C#",
+        "Javascript"
+      ],
+      "frameworks": [
+        ".Net core",
+        ".Net framework",
+        "JQuery",
+        "Angular 2+",
+        "Angularjs",
+        "React Native",
+        "Entity framework",
+        "SignalR",
+        "Kooboo CMS",
+        "Nopcommerce",
+        "DevExpress",
+        "bootstrap",
+        "SmartAdmin"
+      ],
+      "tools": [
+        "Nodejs",
+        "Sql Server",
+        "MySql",
+        "MongoDB",
+        "Android"
+      ],
+      "other": [
+        "Lập trình thiết bị di động",
+        "DI design pattern"
+      ]
+    },
+    "certifications": [
+      {
+        "name": "TIẾNG ANH 2.2 TOP NOTCH",
+        "issuer": null,
+        "year": null,
+        "url": null
+      },
+      {
+        "name": "CHỨNG CHỈ TIN HỌC VĂN PHÒNG",
+        "issuer": null,
+        "year": null,
+        "url": null
+      }
+    ],
+    "languages_spoken": [],
+    "metadata": {
+      "source_file": "42b5968a-e097-4297-bf29-99682d1d0e7a.pdf",
+      "parse_method": "llamaparse",
+      "extraction_model": "gemini-2.5-flash",
+      "extracted_at": "2026-04-12T04:42:26.631106+00:00",
+      "warnings": []
+    },
+    "_osint_targets": {
+      "candidate_name": "Lò Thanh Dương",
+      "social_links": {
+        "linkedin": null,
+        "github": null,
+        "facebook": null,
+        "portfolio": null,
+        "other": []
+      },
+      "project_links": [],
+      "employers": []
+    },
+    "_all_urls": []
+  },
+  {
+    "candidate": {
+      "full_name": "NGUYEN VAN HUONG",
+      "email": null,
+      "phone": null,
+      "location": "33 Tran Van Danh, Tan Binh, HCM City",
+      "summary": "It Manager / Project Manager"
+    },
+    "social_links": {
+      "linkedin": null,
+      "github": null,
+      "facebook": null,
+      "portfolio": null,
+      "other": []
+    },
+    "education": [
+      {
+        "institution": "Van Hien University",
+        "degree": "Bachelor of Information & Technology",
+        "major": null,
+        "gpa": null,
+        "start_year": 2011,
+        "end_year": 2013
+      }
+    ],
+    "work_experience": [
+      {
+        "company": "Alliance Print Technologies",
+        "role": "IT Manager",
+        "start_date": "04/2020",
+        "end_date": null,
+        "is_current": true,
+        "responsibilities": [
+          "Develop systems and procedures to assist management in operating more efficiently and effectively.",
+          "Execute project tasks, including gathering data and requirements, analyzing data, documenting processes, designing solutions, and preparing executive presentations.",
+          "Carry out project management activities, including project planning, resource planning, status reporting, and risk and issue tracking.",
+          "Build and present tailored demonstrations, proving the solution using scenario/use case.",
+          "Definition, maintenance and continuous development of analytics for business stakeholders.",
+          "Consult business requirements with stakeholders and translate these into solutions.",
+          "Provide support to others who are responsible for implementing and maintaining business requirements.",
+          "Identify process challenges and implement appropriate corrections or enhancements.",
+          "Establish and maintain strong business relationships. Demonstrate an understanding of technology and technology projects.",
+          "Building and developing IT solutions (Infrastructure, Applications) according to the management orientation of the Company. Learn management goals, technology trends, build IT solutions according to the Company's development strategy.",
+          "Operate the application system, IT infrastructure at the Head Office and other branches. Directly handle IT-related technical issues at the Company.",
+          "Survey the status, research, and present solutions, make deployment plans, coordinate deployment or directly deploy solutions, guide end-users."
+        ],
+        "company_url": null
+      },
+      {
+        "company": "Keppelland",
+        "role": "Senior Manager",
+        "start_date": "01/2018",
+        "end_date": "03/2020",
+        "is_current": false,
+        "responsibilities": [
+          "Currently I'm managing a team of 8 members in which the app team has 5 members and the support team has 3 members.",
+          "Responsible for IT system administration.",
+          "Solve problems and answer any computer related problems.",
+          "Manage and deploy infrastructure, system and software service solution projects.",
+          "Planning, managing the implementation of project plans.",
+          "Manage the progress, quality, costs of the project, propose solutions when there arise.",
+          "Manage a risk plan and propose appropriate solutions.",
+          "Manage communication and change.",
+          "Coordinate with related parties to identify project objectives, requirements and scope.",
+          "Evaluate, select outsourcing resources/partners for the project (if necessary).",
+          "Project control & support: Check the success factors of the project, evaluate project results.",
+          "Managing the people in the team makes the team grow stronger.",
+          "Evaluation, feedback of team members.",
+          "Make periodic reports to the agency.",
+          "Manage Projects and annual company budget.",
+          "Report monthly to the director.",
+          "Make team plans and assign daily tasks to each user.",
+          "Deploy and maintain products on cloud services (MICROSOFT AZURE)."
+        ],
+        "company_url": null
+      },
+      {
+        "company": "BIDC Bank",
+        "role": "Software developer",
+        "start_date": "8/2014",
+        "end_date": "12/2017",
+        "is_current": false,
+        "responsibilities": [
+          "Main tasks: To implement information technology applications in the banking sector and other operations in T24",
+          "Software development in the bank based on T24.",
+          "Developing WORDPRESS + My SQL",
+          "Use (MVC5), JAVA (SQL, ORACLE) to develop applications outside the system",
+          "Learn more about java development for Core T24.",
+          "Developing reports inside T24 system on java platform.",
+          "Developing customers loan management program, managing archives and electronic receipts (.NET).",
+          "Cooperat with contractors to develop mobile banking (Create Routine to push data inside the system out)."
+        ],
+        "company_url": null
+      },
+      {
+        "company": "ROSY Software Joint Stock Company",
+        "role": "Software developer",
+        "start_date": "07/2010",
+        "end_date": "7/2014",
+        "is_current": false,
+        "responsibilities": [
+          "Detailed survey of customer process",
+          "Interactive departments into the software.",
+          "Data flow of parts.",
+          "Process of calculation of data processing, cost price, cost, specific calculation functions.",
+          "Import earnings data",
+          "List of objects, materials, goods, parts and items.",
+          "Account number, initial balance of payment term, inventory.",
+          "Income form specific customer",
+          "Daily vouchers, VAT invoice forms.",
+          "Customer-specific reports.",
+          "Installation",
+          "Use winform to demo the project",
+          "SQL Server",
+          "Configure SQL Server (open connection protocol, Add account Users / Guest, Enable OpenRowset, Enable xp_cmdshell).",
+          "Framework.",
+          "Install Server.",
+          "Trust to the server, Security on Windows Explorer.",
+          "ODBC to server."
+        ],
+        "company_url": null
+      }
+    ],
+    "projects": [
+      {
+        "name": "SMARK",
+        "description": "real estate financial reporting program",
+        "tech_stack": [],
+        "links": {
+          "github": null,
+          "demo": null,
+          "other": []
+        },
+        "role": null
+      },
+      {
+        "name": "E-invoice",
+        "description": "tax reporting system",
+        "tech_stack": [
+          "MVC",
+          "Wordpress",
+          ".NET",
+          "VB",
+          ".NET Core",
+          "HTML/CSS",
+          "javascript"
+        ],
+        "links": {
+          "github": null,
+          "demo": null,
+          "other": []
+        },
+        "role": null
+      },
+      {
+        "name": "Launch (real estate)",
+        "description": null,
+        "tech_stack": [
+          "MVC",
+          "Wordpress",
+          ".NET",
+          "VB",
+          ".NET Core",
+          "HTML/CSS",
+          "javascript"
+        ],
+        "links": {
+          "github": null,
+          "demo": null,
+          "other": []
+        },
+        "role": null
+      },
+      {
+        "name": "ERP Produce",
+        "description": null,
+        "tech_stack": [
+          "MVC",
+          "Wordpress",
+          ".NET",
+          "VB",
+          ".NET Core",
+          "HTML/CSS",
+          "javascript"
+        ],
+        "links": {
+          "github": null,
+          "demo": null,
+          "other": []
+        },
+        "role": null
+      },
+      {
+        "name": "Magrate: SAP -> SAP-4HANA",
+        "description": null,
+        "tech_stack": [
+          "MVC",
+          "Wordpress",
+          ".NET",
+          "VB",
+          ".NET Core",
+          "HTML/CSS",
+          "javascript"
+        ],
+        "links": {
+          "github": null,
+          "demo": null,
+          "other": []
+        },
+        "role": null
+      },
+      {
+        "name": "Mobile Banking",
+        "description": null,
+        "tech_stack": [],
+        "links": {
+          "github": null,
+          "demo": null,
+          "other": []
+        },
+        "role": null
+      },
+      {
+        "name": "Guarantee Letter",
+        "description": null,
+        "tech_stack": [],
+        "links": {
+          "github": null,
+          "demo": null,
+          "other": []
+        },
+        "role": null
+      },
+      {
+        "name": "Card Management",
+        "description": null,
+        "tech_stack": [],
+        "links": {
+          "github": null,
+          "demo": null,
+          "other": []
+        },
+        "role": null
+      },
+      {
+        "name": "Create Report in T24",
+        "description": null,
+        "tech_stack": [
+          "java platform"
+        ],
+        "links": {
+          "github": null,
+          "demo": null,
+          "other": []
+        },
+        "role": null
+      }
+    ],
+    "skills": {
+      "languages": [
+        "PHP",
+        "SQL",
+        "Python",
+        "Java",
+        "VB",
+        "HTML/CSS",
+        "Javascript"
+      ],
+      "frameworks": [
+        "MVC5",
+        ".NET Core",
+        "Angular",
+        "Wordpress",
+        "Outsystem",
+        "Sharepoint of Microsoft",
+        ".NET"
+      ],
+      "tools": [
+        "MySQL",
+        "Oracle",
+        "SQL Reporting",
+        "SAP",
+        "Microsoft Azure",
+        "Photoshop",
+        "Corel",
+        "MS Office",
+        "Microsoft Windows Server 2003 Network Infrastructure",
+        "Active Directory",
+        "Group Policy",
+        "VPN",
+        "DFS",
+        "WINS",
+        "DNS",
+        "DHCP",
+        "IIS",
+        "T24",
+        "SQL Server"
+      ],
+      "other": [
+        "OOP",
+        "RESTful API",
+        "AI",
+        "Communication",
+        "Teamwork",
+        "Work Independently",
+        "Management",
+        "Be willing to learn new technology",
+        "Network administration",
+        "Managing and Maintaining the Servers, PC’s, Routers and Switches",
+        "Windows network administration",
+        "IP-Addressing",
+        "Remote-Assistance",
+        "file replications",
+        "logon scripts",
+        "File and Print Servers",
+        "Design Patterns",
+        "basic design principles",
+        "scaling web based applications"
+      ]
+    },
+    "certifications": [
+      {
+        "name": "Business Analyst (BA) Course",
+        "issuer": "IMIC Centre",
+        "year": 2019,
+        "url": null
+      },
+      {
+        "name": "Java Core Course",
+        "issuer": "IMIC Centre",
+        "year": 2019,
+        "url": null
+      }
+    ],
+    "languages_spoken": [
+      {
+        "language": "English",
+        "proficiency": "Listen: Medium, Speak: Medium, Read: Good, Write: Good"
+      }
+    ],
+    "metadata": {
+      "source_file": "455cf7fd-8243-42e0-a76a-5e1c250dd7ca.pdf",
+      "parse_method": "llamaparse",
+      "extraction_model": "gemini-2.5-flash",
+      "extracted_at": "2026-04-12T04:43:39.989225+00:00",
+      "warnings": []
+    },
+    "_osint_targets": {
+      "candidate_name": "NGUYEN VAN HUONG",
+      "social_links": {
+        "linkedin": null,
+        "github": null,
+        "facebook": null,
+        "portfolio": null,
+        "other": []
+      },
+      "project_links": [],
+      "employers": []
+    },
+    "_all_urls": []
+  },
+  {
+    "candidate": {
+      "full_name": "Nguyễn Tiến Dũng",
+      "email": null,
+      "phone": null,
+      "location": "201/46/11 Nguyễn xí, P.26, Q.Bình Thạnh, TPHCM.",
+      "summary": "Được làm việc ổn định, lâu dài, trong môi trường làm việc chuyên nghiệp, thân thiện. Có cơ hội phát triển, chế độ đãi ngộ thoả đáng."
+    },
+    "social_links": {
+      "linkedin": null,
+      "github": null,
+      "facebook": null,
+      "portfolio": null,
+      "other": []
+    },
+    "education": [
+      {
+        "institution": "Cao Đẳng KTCN LADEC",
+        "degree": null,
+        "major": "Mạng máy tính",
+        "gpa": null,
+        "start_year": null,
+        "end_year": null
+      },
+      {
+        "institution": "Đại học Công Nghiệp",
+        "degree": null,
+        "major": "Khoa học máy tính",
+        "gpa": null,
+        "start_year": null,
+        "end_year": null
+      }
+    ],
+    "work_experience": [
+      {
+        "company": "Công ty TNHH ĐẦU TƯ VÀ PHÁT TRIỂN LÊ PHONG",
+        "role": "IT Administrator & Web Developer",
+        "start_date": "09/2022",
+        "end_date": null,
+        "is_current": true,
+        "responsibilities": [
+          "Setup và quản lý server, hệ thống mạng, email, máy chấm công…",
+          "Xây dựng và quản trị các website của công ty.",
+          "Viết phần mềm nội bộ: duyệt phép, đặt xe, đặt phòng…",
+          "Quản lý hệ thống máy móc văn phòng: máy tính, máy in, máy fax, máy scan.",
+          "Support cho end user.",
+          "Thực hiện các công tác liên quan về hệ thống trong việc triển khai các ứng dụng CNTT tại công ty.",
+          "Kiểm tra định kỳ hoạt động của hệ thống và thiết bị CNTT."
+        ],
+        "company_url": null
+      },
+      {
+        "company": "Công Ty CP SPORTSLAND",
+        "role": "IT Specialist & Web Administrator",
+        "start_date": "4/2021",
+        "end_date": "07/2022",
+        "is_current": false,
+        "responsibilities": [
+          "Xây dựng và quản trị các website, landing page.",
+          "Cài đặt các công cụ Marketing: Google Analytics, Facebook pixel, tiktok pixel,…",
+          "Trợ lý công nghệ cho ban giám đốc.",
+          "Đảm bảo toàn bộ hệ thống CNTT hoạt động ổn định."
+        ],
+        "company_url": null
+      },
+      {
+        "company": "Công ty CP DV Xây Dựng Địa Ốc Đất Nguồn",
+        "role": "IT Administrator & Web Administrator",
+        "start_date": "7/2020",
+        "end_date": "4/2021",
+        "is_current": false,
+        "responsibilities": [
+          "Setup và quản lý server, hệ thống mạng, email, máy chấm công…",
+          "Chỉnh sửa và quản lý website của công ty.",
+          "Quản lý hệ thống máy móc văn phòng: máy tính, máy in, máy fax, máy scan.",
+          "Hỗ trợ người dùng sử dụng các phần mềm văn phòng, sửa lỗi, cài đặt phần mềm ứng dụng, phần mềm virus.",
+          "Thực hiện các công tác liên quan về hệ thống trong việc triển khai các ứng dụng CNTT tại công ty.",
+          "Kiểm tra định kỳ hoạt động của hệ thống và thiết bị CNTT."
+        ],
+        "company_url": null
+      },
+      {
+        "company": "Công Ty TNHH Mắt Cáo",
+        "role": "Web Developer",
+        "start_date": "4/2018",
+        "end_date": "3/2020",
+        "is_current": false,
+        "responsibilities": [
+          "Tạo ra các modules và components.",
+          "Lập trình trên ngôn ngữ Angular, JavaScript, TypeScript, Restful API, SCSS, LESS, SASS, Responsive, mô hình MV-VM.",
+          "Kiểm tra và sửa các lỗi trên Web và App."
+        ],
+        "company_url": null
+      },
+      {
+        "company": "Công Ty CP Quốc Tế BMG",
+        "role": "IT System Administrator",
+        "start_date": "3/2017",
+        "end_date": "4/2018",
+        "is_current": false,
+        "responsibilities": [
+          "Quản lý server (Win server 2008 R2), máy chấm công, và các website của công ty.",
+          "Quản lý, sửa chữa, cập nhật hệ thống máy móc văn phòng: máy tính, máy in, máy fax, máy scan.",
+          "Quản lý hệ thống tổng đài điện thoại (Quản lý cuộc gọi ra của nhân viên).",
+          "Hỗ trợ người dùng sử dụng các phần mềm văn phòng, sửa lỗi, cài đặt phần mềm ứng dụng, phần mềm virus.",
+          "Thực hiện các công tác liên quan về hệ thống trong việc triển khai các ứng dụng CNTT tại công ty.",
+          "Kiểm tra định kỳ hoạt động của hệ thống và thiết bị CNTT.",
+          "Hỗ trợ các phòng ban (Trong các event, các hội thảo, và các hoạt động có liên quan).",
+          "Quản lý trang thiết bị của công ty."
+        ],
+        "company_url": null
+      },
+      {
+        "company": "Công Ty TNHH Thực Phẩm Orion Vina",
+        "role": "IT Support & System Administrator",
+        "start_date": "2015",
+        "end_date": "2017",
+        "is_current": false,
+        "responsibilities": [
+          "Quản lý, sửa chữa, cập nhật hệ thống máy móc văn phòng: máy tính, máy in, máy fax, máy scan.",
+          "Hỗ trợ điều chỉnh máy chiếu cho các cuộc họp.",
+          "Quản lý hệ thống camera của công ty.",
+          "Quản lý hệ thống tổng đài điện thoại.",
+          "Hỗ trợ người dùng sử dụng các phần mềm văn phòng, ERP,… và sửa lỗi, cài đặt phần mềm ứng dụng, phần mềm virus.",
+          "Thực hiện các công tác liên quan về hệ thống trong việc triển khai các ứng dụng CNTT tại công ty.",
+          "Kiểm tra định kỳ hoạt động của hệ thống và thiết bị CNTT."
+        ],
+        "company_url": null
+      },
+      {
+        "company": "Công Ty TNHH Thương Mại và Dịch Vụ SIMPLE",
+        "role": "Technical Trainer & Coordinator",
+        "start_date": "2010",
+        "end_date": "2015",
+        "is_current": false,
+        "responsibilities": [
+          "Đào tạo kỹ thuật cho nhân viên.",
+          "Quản lý và điều phối nhân viên kỹ thuật.",
+          "Sale online, quản lý giấy tờ,…"
+        ],
+        "company_url": null
+      },
+      {
+        "company": "Công Ty Tin Học Viễn Thông Sao đỏ",
+        "role": "IT Technician",
+        "start_date": "2008",
+        "end_date": "2010",
+        "is_current": false,
+        "responsibilities": [
+          "Bảo trì sửa chữa, xử lý sự cố máy tính, máy in, laptop, macbook.",
+          "Lắp đặt thi công hệ thống mạng LAN, WAN, MAN, camera, tổng đài điện."
+        ],
+        "company_url": null
+      },
+      {
+        "company": "Công Ty TNHH xây dựng Thuỷ Lợi",
+        "role": "Network & Computer Administrator",
+        "start_date": "8/2003",
+        "end_date": "2007",
+        "is_current": false,
+        "responsibilities": [
+          "Quản lý hệ thống mạng và máy tính công ty"
+        ],
+        "company_url": null
+      }
+    ],
+    "projects": [],
+    "skills": {
+      "languages": [
+        "HTML",
+        "CSS",
+        "TypeScript",
+        "JavaScript",
+        "SCSS",
+        "LESS",
+        "SASS"
+      ],
+      "frameworks": [
+        "WordPress",
+        "Angular",
+        "Node.js"
+      ],
+      "tools": [
+        "Server management",
+        "Domain configuration",
+        "DHCP",
+        "DNS",
+        "Email Server",
+        "Web Server",
+        "Google Analytics",
+        "Facebook pixel",
+        "TikTok pixel",
+        "Windows Server 2008 R2"
+      ],
+      "other": [
+        "Network management (LAN/WAN)",
+        "Camera systems",
+        "PBX systems",
+        "Troubleshooting",
+        "Modem configuration",
+        "Problem-solving",
+        "Adaptability",
+        "Teamwork",
+        "Independent work",
+        "Responsive design",
+        "MV-VM",
+        "ERP"
+      ]
+    },
+    "certifications": [
+      {
+        "name": "Lập trình",
+        "issuer": "WORKSHOP",
+        "year": null,
+        "url": null
+      }
+    ],
+    "languages_spoken": [
+      {
+        "language": "Anh văn",
+        "proficiency": "chứng chỉ B"
+      }
+    ],
+    "metadata": {
+      "source_file": "4a0fb149-062f-4ca9-816f-3bd5d81e00ad.pdf",
+      "parse_method": "llamaparse",
+      "extraction_model": "gemini-2.5-flash",
+      "extracted_at": "2026-04-12T04:44:46.702000+00:00",
+      "warnings": []
+    },
+    "_osint_targets": {
+      "candidate_name": "Nguyễn Tiến Dũng",
+      "social_links": {
+        "linkedin": null,
+        "github": null,
+        "facebook": null,
+        "portfolio": null,
+        "other": []
+      },
+      "project_links": [],
+      "employers": []
+    },
+    "_all_urls": []
+  },
+  {
+    "candidate": {
+      "full_name": "DƯƠNG VĂN TUÂN",
+      "email": null,
+      "phone": null,
+      "location": "Tòa A5 Chung Cư An Bình - Phạm Văn Đồng - Bắc Từ Liêm - Hà Nội",
+      "summary": "Nâng cao kỹ năng về Big data. Khả năng làm việc nhóm. Kỹ năng giao tiếp => Áp dụng kinh nghiệm và kỹ năng bản thân cùng quý Công ty tạo ra sản phẩm chất lượng tốt hơn."
+    },
+    "social_links": {
+      "linkedin": null,
+      "github": null,
+      "facebook": null,
+      "portfolio": null,
+      "other": []
+    },
+    "education": [
+      {
+        "institution": "APROTRAIN APTECH",
+        "degree": "Cao đẳng",
+        "major": "LẬP TRÌNH",
+        "gpa": "Giỏi",
+        "start_year": null,
+        "end_year": null
+      }
+    ],
+    "work_experience": [
+      {
+        "company": "CÔNG TY CP GIẢI PHÁP THỜI TIẾT WEATHERPLUS",
+        "role": "TECH LEAD",
+        "start_date": null,
+        "end_date": null,
+        "is_current": false,
+        "responsibilities": [
+          "Thực hiện xây dựng và phát triển hệ thống BIGDATA về thời tiết",
+          "Phát triển module.",
+          "Tối ưu code.",
+          "Review code.",
+          "Đưa ra giải pháp hệ thống",
+          "Đào tạo members dự án"
+        ],
+        "company_url": null
+      },
+      {
+        "company": "CÔNG TY PHẦN MỀM LUVINA",
+        "role": "Team Leader",
+        "start_date": null,
+        "end_date": null,
+        "is_current": false,
+        "responsibilities": [
+          "Dự án insightwatch: Tối ưu hóa bảo mật và chi phí sử dụng tài khoản AWS",
+          "Phát triển module.",
+          "Tối ưu code.",
+          "Review code.",
+          "Tạo tài liệu Amazon Web Services (AWS)",
+          "Đưa ra giải pháp hệ thống",
+          "Đào tạo members dự án"
+        ],
+        "company_url": null
+      },
+      {
+        "company": "CÔNG TY PHẦN MỀM LUVINA",
+        "role": "Developer",
+        "start_date": null,
+        "end_date": null,
+        "is_current": false,
+        "responsibilities": [
+          "Dự án insightwatch: Tối ưu hóa bảo mật và chi phí sử dụng tài khoản AWS",
+          "Onsite tại Nhật Bản",
+          "Phát triển module.",
+          "Tối ưu code.",
+          "Review code.",
+          "Tìm hiểu và tạo tài liệu Amazon Web Services (AWS)"
+        ],
+        "company_url": null
+      },
+      {
+        "company": "CÔNG TY PHẦN MỀM LUVINA",
+        "role": "Developer, Tester",
+        "start_date": null,
+        "end_date": null,
+        "is_current": false,
+        "responsibilities": [
+          "Dự án Grandit: Quản lý bán hàng (tín dụng, mua sắm hàng tồn kho), chức năng trả lương / kế toán nhân sự...",
+          "Phát triển module.",
+          "Tối ưu code.",
+          "Review code.",
+          "Tạo test case.",
+          "Review test case.",
+          "Test theo test case."
+        ],
+        "company_url": null
+      },
+      {
+        "company": "CÔNG TY PHẦN MỀM LUVINA",
+        "role": "Developer",
+        "start_date": null,
+        "end_date": null,
+        "is_current": false,
+        "responsibilities": [
+          "Dự án Bizr – Chăm sóc khuyết tật: Phát triển hệ thống bảo hiểm cho người khuyết tật",
+          "Phát triển module."
+        ],
+        "company_url": null
+      },
+      {
+        "company": "CÔNG TY PHẦN MỀM LUVINA",
+        "role": "Developer",
+        "start_date": null,
+        "end_date": null,
+        "is_current": false,
+        "responsibilities": [
+          "Dự án Bizr – Ca làm việc: Phát triển hệ thống chấm công, phân ca làm việc cho nhân viên",
+          "Phát triển module.",
+          "Tối ưu code."
+        ],
+        "company_url": null
+      }
+    ],
+    "projects": [],
+    "skills": {
+      "languages": [
+        "Java",
+        "C#",
+        "Python",
+        "Node js",
+        "PHP",
+        "HTML",
+        "Javascript"
+      ],
+      "frameworks": [
+        "Java swing",
+        "Struts 2",
+        "JSP",
+        "JQuery",
+        "AJAX",
+        "Netcore",
+        "React",
+        "Hibernate",
+        "Spring",
+        "JavaServer Faces (JSF)"
+      ],
+      "tools": [
+        "Hortonworks Data Platform",
+        "Apache HBase",
+        "MySQL",
+        "PostgreSQL",
+        "SQL Server",
+        "AWS DynamoDB",
+        "Eclipse",
+        "Spring tool suite",
+        "Netbeans",
+        "Visual Studio",
+        "Visual Studio Code",
+        "Pycharm",
+        "AWS S3",
+        "AWS IAM",
+        "AWS Cognito",
+        "AWS Lambda",
+        "AWS API Gateway",
+        "iReport",
+        "Jasperreport",
+        "Microsoft Project",
+        "Redmine",
+        "Trello Kanban"
+      ],
+      "other": [
+        "Lập kế hoạch",
+        "Quản lý",
+        "Điều hành công việc",
+        "Tạo quy trình dự án",
+        "Làm việc nhóm",
+        "Giải pháp khách hàng"
+      ]
+    },
+    "certifications": [],
+    "languages_spoken": [
+      {
+        "language": "Tiếng Anh",
+        "proficiency": null
+      }
+    ],
+    "metadata": {
+      "source_file": "4a31c23a-65bc-4c3f-bde0-51d09aa01860.pdf",
+      "parse_method": "llamaparse",
+      "extraction_model": "gemini-2.5-flash",
+      "extracted_at": "2026-04-12T04:44:55.592682+00:00",
+      "warnings": []
+    },
+    "_osint_targets": {
+      "candidate_name": "DƯƠNG VĂN TUÂN",
+      "social_links": {
+        "linkedin": null,
+        "github": null,
+        "facebook": null,
+        "portfolio": null,
+        "other": []
+      },
+      "project_links": [],
+      "employers": []
+    },
+    "_all_urls": []
+  },
+  {
+    "candidate": {
+      "full_name": "PHAM THANH LONG HAI",
+      "email": null,
+      "phone": null,
+      "location": null,
+      "summary": null
+    },
+    "social_links": {
+      "linkedin": null,
+      "github": null,
+      "facebook": null,
+      "portfolio": null,
+      "other": []
+    },
+    "education": [
+      {
+        "institution": "Ho Chi Minh Open University",
+        "degree": null,
+        "major": "Computer Science",
+        "gpa": null,
+        "start_year": 2009,
+        "end_year": 2013
+      },
+      {
+        "institution": "University of Economics",
+        "degree": "Certificate of professional accounting",
+        "major": "professional accounting",
+        "gpa": null,
+        "start_year": 2015,
+        "end_year": 2015
+      }
+    ],
+    "work_experience": [
+      {
+        "company": "ZENGROUP JOIN STOCK COMPANY",
+        "role": "Systems Operation Leader",
+        "start_date": "05/2021",
+        "end_date": null,
+        "is_current": true,
+        "responsibilities": [
+          "Responsible for maintaining, backup, supporting, and upgrading applications: ERP, POS and E-commerce.",
+          "Troubleshoot application software (ERP) and data problems on a timely basis. Receive and resolves ERP issues from users.",
+          "Assist end-user development of ad-hoc queries and reports of ERP data.",
+          "Implement user allocation/revocation on the ERP system.",
+          "Prepare workflow models, diagrams for any user requirement. Responsible for executing and validating test cases.",
+          "Design and implement SQL Server Tables and Views. Setup and schedule many jobs in SQL Server.",
+          "Get knowledge on Database programming (Store Procedures, Functions, Triger)."
+        ],
+        "company_url": null
+      },
+      {
+        "company": "LAC VIET COMPUTING CORPORATION",
+        "role": "ERP & HRM & Bank Consulting Specialist",
+        "start_date": "04/2018",
+        "end_date": "05/2021",
+        "is_current": false,
+        "responsibilities": [],
+        "company_url": null
+      },
+      {
+        "company": "ADALINE JOIN STOCK COMPANY",
+        "role": "Business analysis leader, database architecture",
+        "start_date": "04/2016",
+        "end_date": "04/2018",
+        "is_current": false,
+        "responsibilities": [
+          "Responsible for implementation of ERP/HRM and Bank's remittance system.",
+          "Work with customer to elicit the pain points, clear the requirement and consult the standard flows.",
+          "Document, train key/end users and support go-live.",
+          "Cooperate and support to project teams for planning and implementing on-going projects.",
+          "Get knowledge on ERP, Banking, HRM, WMS.",
+          "Database programming (Store Procedures, Functions, Trigger), Performance Tuning SQL Queries, designing and Implementing SQL Server Tables and Views, Setup and schedule jobs in SQL server.",
+          "Design report, UI with mockup tool and via Microsoft visual studio.",
+          "Liaise among stakeholders to elicit, analyze and validate requirements.",
+          "Plan and report project timeline/development process.",
+          "Prepare workflow models, diagrams. Present and discuss with customer to get the final solutions.",
+          "Act as stakeholder of project backlog items, work closely with development teams."
+        ],
+        "company_url": null
+      },
+      {
+        "company": "WINTA JOINT STOCK COMPANY",
+        "role": "Leader of Implement and Consulting team",
+        "start_date": "01/2013",
+        "end_date": "04/2016",
+        "is_current": false,
+        "responsibilities": [
+          "Collect and discuss the customer requirements to deeply understand. Consult to have the suitable business process.",
+          "Work closely with other product managers, business analysts, developers to plan and estimate projects.",
+          "Train and support the team members, key and end users to use systems effectively.",
+          "Assign tasks to team members, keep the projects in time.",
+          "Attend projects meeting with customers and project manager for updating status on process or solving the issues."
+        ],
+        "company_url": null
+      },
+      {
+        "company": "WINTA JOINT STOCK COMPANY",
+        "role": "Business Analyst",
+        "start_date": null,
+        "end_date": null,
+        "is_current": false,
+        "responsibilities": [
+          "Manage the company’s website, vps, hosting system.",
+          "Get well known on Retail, POS, TMS and F&B.",
+          "Gather the customer requirements, analyze and write Blueprint.",
+          "Work directly with project team to define issues and give solutions.",
+          "Design report forms.",
+          "Write solution and guideline documents."
+        ],
+        "company_url": null
+      }
+    ],
+    "projects": [],
+    "skills": {
+      "languages": [
+        "SQL"
+      ],
+      "frameworks": [],
+      "tools": [
+        "SQL Server",
+        "Microsoft Visual Studio"
+      ],
+      "other": [
+        "ERP",
+        "POS",
+        "E-commerce",
+        "HRM",
+        "WMS",
+        "Retail",
+        "TMS",
+        "F&B",
+        "Database programming",
+        "Performance Tuning SQL Queries",
+        "Business analysis",
+        "Consulting",
+        "Requirement elicitation",
+        "Workflow modeling",
+        "Diagramming",
+        "Test case validation",
+        "UI design",
+        "Project planning",
+        "Stakeholder liaison",
+        "Training",
+        "Project management"
+      ]
+    },
+    "certifications": [
+      {
+        "name": "Certificate of professional accounting",
+        "issuer": "University of Economics",
+        "year": 2015,
+        "url": null
+      }
+    ],
+    "languages_spoken": [],
+    "metadata": {
+      "source_file": "4b48bda1-4885-4ebf-b5ff-1c31c0f1cf42.pdf",
+      "parse_method": "llamaparse",
+      "extraction_model": "gemini-2.5-flash",
+      "extracted_at": "2026-04-12T04:44:49.778593+00:00",
+      "warnings": []
+    },
+    "_osint_targets": {
+      "candidate_name": "PHAM THANH LONG HAI",
+      "social_links": {
+        "linkedin": null,
+        "github": null,
+        "facebook": null,
+        "portfolio": null,
+        "other": []
+      },
+      "project_links": [],
+      "employers": []
+    },
+    "_all_urls": []
+  },
+  {
+    "candidate": {
+      "full_name": "NGÔ QUỐC ĐỒNG",
+      "email": null,
+      "phone": null,
+      "location": "Xuân mai Complex, KĐT Dương Nội, Hà Đông, Hà Nội",
+      "summary": "Tôi đã có hơn 13 năm kinh nghiệm làm việc trong lĩnh vực công nghệ thông tin, quản trị hệ thống, bảo mật, xây dựng chính sách, triển khai dự án, đấu thầu, chiến lược, công nghệ, quản trị nguồn nhân lực CNTT ... tại các tập đoàn công nghệ hàng đầu. Phát triển các nền tảng, ứng dụng, công nghệ kỹ thuật trong chiến lược của công ty để đảm bảo sự phù hợp với các mục tiêu kinh doanh của công ty."
+    },
+    "social_links": {
+      "linkedin": null,
+      "github": null,
+      "facebook": null,
+      "portfolio": null,
+      "other": []
+    },
+    "education": [
+      {
+        "institution": "Trường Đại học Tôn Đức Thắng",
+        "degree": null,
+        "major": "Khoa học máy tính",
+        "gpa": null,
+        "start_year": 2008,
+        "end_year": 2012
+      }
+    ],
+    "work_experience": [
+      {
+        "company": "Tập đoàn FPT",
+        "role": "Trưởng phòng Hệ thống",
+        "start_date": "2020",
+        "end_date": "Hiện tại",
+        "is_current": true,
+        "responsibilities": [
+          "Chịu trách nhiệm vận hành hệ thống thông tin hoạt động an toàn, bảo mật và ổn định",
+          "Triển khai chuyển đổi số cho các hoạt động của phòng, ban và tập đoàn",
+          "NGHIÊN CỨU, TRIỂN KHAI, ÁP DỤNG CÁC GIẢI PHÁP AI, RPA,.. PHỤC VỤ CÔNG VIỆC CỦA TẬP ĐOÀN",
+          "Chịu trách nhiệm đảm bảo ATTT cho toàn bộ hệ thống core (tài chính, nhân sự, thương hiệu,..) của tập đoàn FPT",
+          "Đảm bảo cho hệ thống mạng, ứng dụng, của Tập đoàn và các Đơn vị thành viên được hoạt động ổn định đạt hiệu năng cao",
+          "Vận hành các hệ thống hỗ trợ hoạt động của tập đoàn và 50.000 nhân sự như: Tài chính (ERP), Nhân sự (PS), thương hiệu,…",
+          "Xây dựng, triển khai, giám sát tiến độ các dự án CNTT của Tập đoàn và các Đơn vị thành viên.",
+          "Quản lý trực tiếp các hoạt động của phòng CNTT (14 nhân sự)",
+          "Xây dựng chiến lược, ngân sách CNTT hàng năm"
+        ],
+        "company_url": null
+      },
+      {
+        "company": "Công ty cổ phần BellSystem24-Hoasao",
+        "role": "Trưởng phòng ICT",
+        "start_date": "2017",
+        "end_date": "2020",
+        "is_current": false,
+        "responsibilities": [
+          "Xây dựng kiến trúc hệ thống",
+          "Quản lý và điều phối các hoạt động cung cấp dịch vụ CNTT cho toàn Công ty.",
+          "Quản lý toàn bộ hạ tầng CNTT của Công ty",
+          "Xây dựng và quản lý ngân sách Hạ tầng CNTT.",
+          "Tổ chức quản lý, điều hành phòng, điều phối đội ngũ nhân viên hoàn thành các công việc.",
+          "Tham gia đánh giá, lựa chọn, làm việc, thương lượng với các nhà cung cấp.",
+          "Chịu trách nhiệm nghiên cứu, tiếp nhận chỉ đạo về ứng dụng công nghệ từ Ban lãnh đạo.",
+          "Thực hiện báo cáo kết quả hoạt động định kỳ.",
+          "Thực hiện các nhiệm vụ công việc khác theo phân công của Ban lãnh đạo Công ty.",
+          "Quản lý, đào tạo, xây dựng, giám sát, hỗ trợ nhân sự Ban ICT làm việc (> 30 người).",
+          "Xây dựng hệ thống Contact Center có tính ổn định cao, tính năng đa dạng, hoạt động chính xác, triển khai dễ dàng, bảo mật cao.",
+          "Quản lý và phân công công việc cho các nhân viên trong Ban, và các chi nhánh.",
+          "Xây dựng, quản lý hệ thống cơ sở vật chất, mạng CNTT cho công ty và các chi nhánh.",
+          "Quản lý, đảm bảo cơ sở hạ tầng về kỹ thuật công nghệ thông tin cho các hoạt động quản lý điều hành của công ty.",
+          "Nghiên cứu, cập nhật các công nghệ mới: AI, Chatbot, Socical Miner, Voice, Cloud, VPS, Secure,...",
+          "Tham gia Ban ISO: 9001, 127001.",
+          "Tham gia tư vấn, triển khai, vận hành, hỗ trợ các đối tác, triển khai Call-Center.",
+          "Triển khai hạ tầng, vận hành kết nối các dự án quốc tế tại VN: VPN, SD-WAN, POLICY, LOG, SECURE."
+        ],
+        "company_url": null
+      },
+      {
+        "company": "Công ty cổ phần BellSystem24-Hoasao",
+        "role": "Phó phòng ICT",
+        "start_date": "2016",
+        "end_date": "2017",
+        "is_current": false,
+        "responsibilities": [],
+        "company_url": null
+      },
+      {
+        "company": "Công ty cổ phần BellSystem24-Hoasao",
+        "role": "IT Supervisior",
+        "start_date": "2015",
+        "end_date": "2016",
+        "is_current": false,
+        "responsibilities": [],
+        "company_url": null
+      },
+      {
+        "company": "Công ty cổ phần CSKH Việt Nam",
+        "role": "IT Administrator",
+        "start_date": "2013",
+        "end_date": "2015",
+        "is_current": false,
+        "responsibilities": [
+          "Triển khai, vận hành hệ thống, hạ tầng, Network cho hơn 1000 nhân sự: AD, Firewall, Network, FTTH, Os, DNS, TCP/IP, Proxy, IPS/IDS, SSL, Web Filter, DNS Filter,…",
+          "Cài đặt cấu hình và quản trị server vật lý và ảo hóa VMware Esxi 5.0-6.7 (DC, Bravo, DEV, Mail, Firewall mềm…), Hyper-V, OracleVM, Server, Cloud, Oracle Linux, CentOS, RedHat...",
+          "Cài đặt cấu hình HA Cluster Esxi, MPLS, RIP, AD, SQL Server, Mongod, HAproxy Keepalived, WordPress trên Linux.",
+          "Cài đặt, cấu hình và quản lý Firewall mềm Sophos, Pfsence, Ataro. Firewall cứng cisco ASA 5545 VPN, NAT, Public IP....), Fortigate, Chekpoint, .., và các modem wifi.",
+          "Cài đặt cấu hình và quản lý Server mail Exchange (2010, 2013, 2016), Server Kas er- Endpoint, FTP server (Windown, Freenas, Synology…), Server monitor (Solarwinds, PRTG. Zabbix,...), Server veeambackup, restore cho ảo hóa. - Kiểm tra và theo dõi hàng ngày quá trình hoạt động của các server. Theo dõi đảm bảo NOC backup ảo hóa VMware, bảo mật và luôn được backup, bảo trì định kỳ.",
+          "Làm viêc với các NCC mua sắm trang thiết bị cần thiết cấp phát cho người dùng.",
+          "Giám sát thi công hạng mục IT các địa điểm mở mới của cty",
+          "Xây dựng tổng đài Voip, Asterisk, FrePBX, Click2 Call",
+          "Tham gia triển khai hệ thống UCCE. Vận hành các hệ thống PBX, AVAYA, GENESYS",
+          "Ảo hóa Vmware, Esxi 5,6-6,9 Hyper-V, Citrix",
+          "Firewall: ASA, FORTIGATE, CISCO, CHECKPOINT,…"
+        ],
+        "company_url": null
+      }
+    ],
+    "projects": [
+      {
+        "name": "Triển khai tự động hóa các quy trình của các phòng ban (RPA)",
+        "description": "cho 30 nghiệp vụ của các phòng ban chuyên môn tại FPT HO giúp tăng năng suất lao động 30%.",
+        "tech_stack": [
+          "RPA"
+        ],
+        "links": {
+          "github": null,
+          "demo": null,
+          "other": []
+        },
+        "role": null
+      },
+      {
+        "name": "Xây dựng team Devops cho các dự án tại FPT",
+        "description": "Xây dựng và ban hành quy định Devops cho toàn bộ hệ thống Tập đoàn FPT và các Đơn vị thành viên.",
+        "tech_stack": [
+          "DevOps"
+        ],
+        "links": {
+          "github": null,
+          "demo": null,
+          "other": []
+        },
+        "role": null
+      },
+      {
+        "name": "Triển khai Migration toàn bộ các hệ thống ứng dụng, web/app của tập đoàn lên Cloud",
+        "description": null,
+        "tech_stack": [
+          "Cloud"
+        ],
+        "links": {
+          "github": null,
+          "demo": null,
+          "other": []
+        },
+        "role": null
+      },
+      {
+        "name": "Quy hoạch toàn bộ IP, kết nối của tập đoàn và các CTTV",
+        "description": null,
+        "tech_stack": [
+          "IP",
+          "Network"
+        ],
+        "links": {
+          "github": null,
+          "demo": null,
+          "other": []
+        },
+        "role": null
+      },
+      {
+        "name": "Thực hiện audit an toàn thông tin và quy trình phát triển phần mềm trong toàn Tập đoàn",
+        "description": "hàng năm với vai trò Quản lý dự án.",
+        "tech_stack": [
+          "Security Audit",
+          "Software Development Process"
+        ],
+        "links": {
+          "github": null,
+          "demo": null,
+          "other": []
+        },
+        "role": "Quản lý dự án"
+      },
+      {
+        "name": "Hoàn thiện quy trình, hệ thống cảnh báo các sự cố tấn công, rà quét các hệ thống tại Tập đoàn",
+        "description": null,
+        "tech_stack": [
+          "Security",
+          "Alerting Systems"
+        ],
+        "links": {
+          "github": null,
+          "demo": null,
+          "other": []
+        },
+        "role": null
+      },
+      {
+        "name": "Xây dựng cơ chế, quy trình xử lý sự cố khi bị tấn công DDOS",
+        "description": null,
+        "tech_stack": [
+          "DDOS Mitigation"
+        ],
+        "links": {
+          "github": null,
+          "demo": null,
+          "other": []
+        },
+        "role": null
+      },
+      {
+        "name": "Triển khai hệ thống ITSM quản lý toàn bộ hạ tầng CNTT",
+        "description": null,
+        "tech_stack": [
+          "ITSM"
+        ],
+        "links": {
+          "github": null,
+          "demo": null,
+          "other": []
+        },
+        "role": null
+      },
+      {
+        "name": "Tư vấn kiến trúc và review an toàn thông tin 100% các ứng dụng tại tập đoàn FPT",
+        "description": "đình kỳ hàng năm hoặc khi có dự án mới triển khai.",
+        "tech_stack": [
+          "Security Architecture",
+          "Application Security Review"
+        ],
+        "links": {
+          "github": null,
+          "demo": null,
+          "other": []
+        },
+        "role": null
+      },
+      {
+        "name": "Triển khai và vận hành hạ tầng CNTT cho tòa nhà FPT Tower",
+        "description": null,
+        "tech_stack": [
+          "IT Infrastructure"
+        ],
+        "links": {
+          "github": null,
+          "demo": null,
+          "other": []
+        },
+        "role": null
+      },
+      {
+        "name": "Call-Center CSKH 4G Viettel",
+        "description": null,
+        "tech_stack": [
+          "Call Center"
+        ],
+        "links": {
+          "github": null,
+          "demo": null,
+          "other": []
+        },
+        "role": null
+      },
+      {
+        "name": "Call-Center CSKH VIETTEL STORE",
+        "description": null,
+        "tech_stack": [
+          "Call Center"
+        ],
+        "links": {
+          "github": null,
+          "demo": null,
+          "other": []
+        },
+        "role": null
+      },
+      {
+        "name": "Tổng đài BV PHỤ SẢN",
+        "description": null,
+        "tech_stack": [
+          "Call Center"
+        ],
+        "links": {
+          "github": null,
+          "demo": null,
+          "other": []
+        },
+        "role": null
+      },
+      {
+        "name": "Tổng đài & CRM CSKH BAMBOO AIRWAYS, VIETJET AIR",
+        "description": null,
+        "tech_stack": [
+          "Call Center",
+          "CRM"
+        ],
+        "links": {
+          "github": null,
+          "demo": null,
+          "other": []
+        },
+        "role": null
+      },
+      {
+        "name": "Tổng đài CSKH: VTC, REDSUN, MORI, DƯỢC CỬU LONG,...",
+        "description": null,
+        "tech_stack": [
+          "Call Center"
+        ],
+        "links": {
+          "github": null,
+          "demo": null,
+          "other": []
+        },
+        "role": null
+      },
+      {
+        "name": "Hệ thống gọi ra tự động cho các kênh sales: PVI, CITIBANK, MANULIFE,...",
+        "description": null,
+        "tech_stack": [
+          "Automated Dialing System"
+        ],
+        "links": {
+          "github": null,
+          "demo": null,
+          "other": []
+        },
+        "role": null
+      },
+      {
+        "name": "Triển khai kênh phân phối: Sip Mobile Viettel, Vina, Mobile,...",
+        "description": null,
+        "tech_stack": [
+          "SIP Mobile"
+        ],
+        "links": {
+          "github": null,
+          "demo": null,
+          "other": []
+        },
+        "role": null
+      },
+      {
+        "name": "PM triển khai giải pháp Cisco – SDA cho FPT Tower",
+        "description": null,
+        "tech_stack": [
+          "Cisco SDA"
+        ],
+        "links": {
+          "github": null,
+          "demo": null,
+          "other": []
+        },
+        "role": null
+      },
+      {
+        "name": "Quản lý OKR xuất sắc",
+        "description": null,
+        "tech_stack": [
+          "OKR Management"
+        ],
+        "links": {
+          "github": null,
+          "demo": null,
+          "other": []
+        },
+        "role": null
+      }
+    ],
+    "skills": {
+      "languages": [],
+      "frameworks": [],
+      "tools": [
+        "Linux",
+        "Call Center System",
+        "Cloud Server Openstack",
+        "System Admin",
+        "ITIL",
+        "Cloud VMWARE",
+        "IT System",
+        "Voice Solutions",
+        "Strategic Design",
+        "IT Operations",
+        "Vmware Vsphere",
+        "Team Training",
+        "CRM",
+        "Secure Computing",
+        "DevOpsManage IT",
+        "Window Server",
+        "Cloud Server",
+        "Infrastructure Azure",
+        "Firewall",
+        "Strategic Design Cloud",
+        "AWS Cloud",
+        "AD",
+        "Network",
+        "FTTH",
+        "Os",
+        "DNS",
+        "TCP/IP",
+        "Proxy",
+        "IPS/IDS",
+        "SSL",
+        "Web Filter",
+        "DNS Filter",
+        "VMware Esxi",
+        "Hyper-V",
+        "OracleVM",
+        "Oracle Linux",
+        "CentOS",
+        "RedHat",
+        "HA Cluster Esxi",
+        "MPLS",
+        "RIP",
+        "SQL Server",
+        "Mongod",
+        "HAproxy Keepalived",
+        "WordPress",
+        "Sophos",
+        "Pfsence",
+        "Ataro",
+        "cisco ASA 5545 VPN",
+        "Fortigate",
+        "Chekpoint",
+        "Exchange",
+        "Kas er- Endpoint",
+        "FTP server",
+        "Solarwinds",
+        "PRTG",
+        "Zabbix",
+        "veeambackup",
+        "Voip",
+        "Asterisk",
+        "FrePBX",
+        "Click2 Call",
+        "UCCE",
+        "PBX",
+        "AVAYA",
+        "GENESYS",
+        "Citrix",
+        "ASA",
+        "FORTIGATE",
+        "CISCO",
+        "CHECKPOINT",
+        "AI",
+        "Chatbot",
+        "Socical Miner",
+        "VPS",
+        "Secure",
+        "ERP",
+        "PS",
+        "RPA",
+        "ITSM",
+        "Cisco SDA"
+      ],
+      "other": [
+        "Quản lý và định hướng đội ngũ",
+        "Phân tích và lập kế hoạch, chiến lược",
+        "Định hướng công nghệ",
+        "Quản lý dự án",
+        "Chủ động và có khả năng làm việc độc lập",
+        "Chịu áp lực trong công việc",
+        "Làm việc nhóm và phối hợp các đơn vị trong tổ chức",
+        "Tính chuyên nghiệp trong công việc",
+        "ISO 9001",
+        "ISO 127001",
+        "OKR Management"
+      ]
+    },
+    "certifications": [
+      {
+        "name": "Mini MBA",
+        "issuer": "Viện Quản trị và Công nghệ FSB",
+        "year": 2021,
+        "url": null
+      },
+      {
+        "name": "CEH",
+        "issuer": null,
+        "year": 2020,
+        "url": null
+      },
+      {
+        "name": "SECURITY+",
+        "issuer": null,
+        "year": 2020,
+        "url": null
+      },
+      {
+        "name": "CCNA",
+        "issuer": null,
+        "year": 2012,
+        "url": null
+      },
+      {
+        "name": "CCNP",
+        "issuer": null,
+        "year": 2012,
+        "url": null
+      },
+      {
+        "name": "MCSA",
+        "issuer": null,
+        "year": 2008,
+        "url": null
+      },
+      {
+        "name": "MCSE",
+        "issuer": null,
+        "year": 2008,
+        "url": null
+      },
+      {
+        "name": "MCP",
+        "issuer": null,
+        "year": 2008,
+        "url": null
+      },
+      {
+        "name": "CCNA VOICE",
+        "issuer": null,
+        "year": 2015,
+        "url": null
+      },
+      {
+        "name": "Voip Advance",
+        "issuer": null,
+        "year": 2018,
+        "url": null
+      }
+    ],
+    "languages_spoken": [
+      {
+        "language": "Tiếng Anh",
+        "proficiency": "Chuyên ngành (đọc tài liệu, mail...), Giao tiếp trung bình"
+      }
+    ],
+    "metadata": {
+      "source_file": "ae7e31c2-900c-4560-8198-e9ffe1396f87.pdf",
+      "parse_method": "llamaparse",
+      "extraction_model": "gemini-2.5-flash",
+      "extracted_at": "2026-04-12T04:42:54.083078+00:00",
+      "warnings": []
+    },
+    "_osint_targets": {
+      "candidate_name": "NGÔ QUỐC ĐỒNG",
+      "social_links": {
+        "linkedin": null,
+        "github": null,
+        "facebook": null,
+        "portfolio": null,
+        "other": []
+      },
+      "project_links": [],
+      "employers": []
+    },
+    "_all_urls": []
+  },
+  {
+    "candidate": {
+      "full_name": "TRƯƠNG THANH VŨ",
+      "email": null,
+      "phone": null,
+      "location": "155A Triệu Quang Phục, P.11, Q.5, TP Hồ Chí Minh",
+      "summary": "Tôi sẽ áp dụng những kiến thức, kỹ năng, kinh nghiệm đã tích lũy trong thời gian qua để phấn đấu đáp ứng được yêu cầu công việc. Đồng thời luôn học hỏi, phấn đấu để đạt được kỹ năng, kiến thức chuyên môn cao hơn. Từ đó góp phần vào sự phát triển của Doanh nghiệp. Bản thân mong muốn có được một công việc ổn định, gắn bó lâu dài với Công ty."
+    },
+    "social_links": {
+      "linkedin": null,
+      "github": null,
+      "facebook": null,
+      "portfolio": null,
+      "other": []
+    },
+    "education": [
+      {
+        "institution": "Trường Cao Đẳng Điện Lực Miền Trung",
+        "degree": "Hệ Trung Cấp",
+        "major": "Công nghệ Kỹ Thuật Điện - Hệ thống điện",
+        "gpa": null,
+        "start_year": 2007,
+        "end_year": 2009
+      },
+      {
+        "institution": "Trường Đại học Công Nghệ Hutech TPHCM",
+        "degree": "Đại học",
+        "major": "Kỹ Thuật Điện - Điện Tử",
+        "gpa": null,
+        "start_year": null,
+        "end_year": 2019
+      }
+    ],
+    "work_experience": [
+      {
+        "company": "Công ty Cổ phần Sản Xuất Kinh Doanh Thiết Bị Điện TTC",
+        "role": "Chuyên viên kỹ thuật (Bộ Phận Dự Án)",
+        "start_date": "2011",
+        "end_date": "2019",
+        "is_current": false,
+        "responsibilities": [
+          "Giám sát thi công các Trạm Biến Áp cấp điện cho Nhà máy sản xuất bao bì Thiên Ý tại Bình Phước, Nệm Liên Á tại Long An.",
+          "Theo dõi, báo cáo tiến độ thi công, đề xuất biện pháp nhằm đảm bảo tiến độ các dự án của Công ty theo các hợp đồng đã ký kết.",
+          "Quản lý triển khai, trực tiếp giám sát Dự án TBA trong nhà 2x1600kVA cấp điện cho nhà máy sản xuất dây cáp điện CADIVI tại Khu Công Nghiệp Tân Phú Trung, Củ Chi, TP Hồ Chí Minh.",
+          "Tư vấn cho khách hàng các giải pháp giải quyết các sự cố phát sinh liên quan đến nghiệp vụ chuyên môn.",
+          "Tiếp nhận và xử lý các phản hồi của khách hàng về vấn đề bảo trì, bảo dưỡng, sửa chữa.",
+          "Báo cáo thống kê, dự trù mua sắm trang thiết bị, vật tư của Dự án và cho việc sản xuất tại nhà máy.",
+          "Tìm kiếm, làm việc với các đối tác của công ty, nhà cung ứng vật tư nhằm đảm bảo khả năng cung cấp vật tư cho quá trình sản xuất, thực hiện Dự án của Công ty."
+        ],
+        "company_url": null
+      },
+      {
+        "company": "Công Ty TNHH Tư Vấn Xây Dựng CBN",
+        "role": "Chuyên viên Quản Lý – Giám sát Kỹ Thuật",
+        "start_date": "2020",
+        "end_date": "2022",
+        "is_current": false,
+        "responsibilities": [
+          "Triển khai, giám sát thi công các Gói thầu, Dự án sửa chữa, cải tạo và nâng cấp lưới điện Trung – Hạ thế trên địa bàn các Quận 5, Quận 8 do Công ty điện Lực Chợ Lớn quản lý.",
+          "Theo dõi, đề xuất các biện pháp xử lý nhằm đảm bảo tiến độ theo yêu cầu của Chủ Đầu tư.",
+          "Quản lý các công việc liên quan đến nghiệm thu, bàn giao công trình, thanh lý hợp đồng, lập hồ sơ thanh toán, quyết toán … đối với nhà thầu, khách hàng.",
+          "Tiếp nhận và xử lý các phản hồi của khách hàng về vấn đề bảo trì, bảo dưỡng, sửa chữa.",
+          "Kinh doanh vật tư thiết bị điện phục vụ các Gói thầu, Dự án, báo giá, dự trù kinh phí.",
+          "Tìm kiếm, làm việc với các đối tác của công ty, nhà cung ứng vật tư thực hiện cho các Dự án, gói thầu."
+        ],
+        "company_url": null
+      },
+      {
+        "company": "Công ty TNHH Kỹ nghệ Thăng Long",
+        "role": "Chuyên viên Kinh doanh",
+        "start_date": "2023",
+        "end_date": null,
+        "is_current": true,
+        "responsibilities": [],
+        "company_url": null
+      }
+    ],
+    "projects": [],
+    "skills": {
+      "languages": [],
+      "frameworks": [],
+      "tools": [
+        "Word",
+        "Excel"
+      ],
+      "other": [
+        "Đọc và triển khai thi công các bản vẽ hệ thống điện",
+        "Lập trình điều khiển PLC",
+        "Nghiệp vụ đấu thầu",
+        "Quản lý tòa nhà",
+        "Thuyết trình",
+        "Làm việc nhóm",
+        "Sắp xếp công việc hiệu quả"
+      ]
+    },
+    "certifications": [
+      {
+        "name": "Chứng chỉ A Tin học văn phòng",
+        "issuer": null,
+        "year": null,
+        "url": null
+      },
+      {
+        "name": "Chứng chỉ sơ cấp lập trình điều khiển PLC",
+        "issuer": null,
+        "year": null,
+        "url": null
+      },
+      {
+        "name": "Chứng chỉ bồi dưỡng nghiệp vụ đấu thầu",
+        "issuer": null,
+        "year": null,
+        "url": null
+      },
+      {
+        "name": "Chứng chỉ Quản lý tòa nhà",
+        "issuer": null,
+        "year": null,
+        "url": null
+      }
+    ],
+    "languages_spoken": [],
+    "metadata": {
+      "source_file": "ae9a40c6-39df-4afd-a74c-118e98a158c4.pdf",
+      "parse_method": "llamaparse",
+      "extraction_model": "gemini-2.5-flash",
+      "extracted_at": "2026-04-12T04:42:31.874572+00:00",
+      "warnings": []
+    },
+    "_osint_targets": {
+      "candidate_name": "TRƯƠNG THANH VŨ",
+      "social_links": {
+        "linkedin": null,
+        "github": null,
+        "facebook": null,
+        "portfolio": null,
+        "other": []
+      },
+      "project_links": [],
+      "employers": []
+    },
+    "_all_urls": []
+  },
+  {
+    "candidate": {
+      "full_name": "Duong Duc Dat",
+      "email": null,
+      "phone": null,
+      "location": null,
+      "summary": "To be part of a dynamic team where I’m able to contribute with my whole strengths. I’m also looking forward to opportunities to stretch and grow my skills."
+    },
+    "social_links": {
+      "linkedin": null,
+      "github": null,
+      "facebook": null,
+      "portfolio": null,
+      "other": []
+    },
+    "education": [],
+    "work_experience": [
+      {
+        "company": "FPT",
+        "role": null,
+        "start_date": "05-2007",
+        "end_date": "11-2011",
+        "is_current": false,
+        "responsibilities": [
+          "Maintained and updated Servers OS: Window Microsoft server 2003, 2008, Linux Cent OS",
+          "Designed, built and managed websites",
+          "Built video system for",
+          "Converted videos from multiple formats to flv, mp3, mp4 for online and mobile newspapers",
+          "Assisted reporters with video editing",
+          "Reported video view counts to marketing team",
+          "Edited videos to add logos, adjust sounds and other technical parameters",
+          "Maintained and managed servers that hosted video",
+          "Participated in a project to build an editing system to manage internal articles",
+          "Installed, maintained and managed 30 servers with strong configuration 1U, 2U and 4U"
+        ],
+        "company_url": null
+      },
+      {
+        "company": "VNPT – Vietnam Posts and Telecommunication Group",
+        "role": null,
+        "start_date": "07-2012",
+        "end_date": "09-2013",
+        "is_current": false,
+        "responsibilities": [
+          "Designed, built and managed website",
+          "Designed, built and managed websites for several projects",
+          "Maintained and managed servers"
+        ],
+        "company_url": null
+      },
+      {
+        "company": "Hadico – Hanoi Agricultural Development and Investment Company Limited",
+        "role": null,
+        "start_date": "04-2014",
+        "end_date": "12-2015",
+        "is_current": false,
+        "responsibilities": [
+          "Maintained and managed internal system which comprises of 50 computers, LAN, WAN and Wifi",
+          "Installed Windows",
+          "Supported users with system issues",
+          "Kept track of device counts"
+        ],
+        "company_url": null
+      },
+      {
+        "company": "Vegas Plaza Casino",
+        "role": null,
+        "start_date": "01-2016",
+        "end_date": "12-2017",
+        "is_current": false,
+        "responsibilities": [
+          "Managed 200 game machines (Linux core)",
+          "Installed and managed 5 Windows servers",
+          "Installed, maintained and managed internal system which comprises of 50 computers, several printers, LAN, WAN and Wifi"
+        ],
+        "company_url": null
+      },
+      {
+        "company": "ManiSpa Aesthetics Company Ltd.",
+        "role": "Team lead of a supporting function for tele marketing department",
+        "start_date": "01-2018",
+        "end_date": "05-2020",
+        "is_current": false,
+        "responsibilities": [
+          "Developed reports using software and Excel",
+          "Installed, maintained and managed the internal network and computing systems which used by 12 branches: Windows & Linux servers, 150 computers, printers and projectors",
+          "Selected hardware vendors based on product quality and pricing"
+        ],
+        "company_url": null
+      },
+      {
+        "company": "Atlantic Group international education and training company",
+        "role": "Software development manager",
+        "start_date": "2022",
+        "end_date": "08-2023",
+        "is_current": false,
+        "responsibilities": [
+          "Developed reports using software and Excel",
+          "System administration of Linux servers (CentOS + Ubuntu) + Windows (Window Server)",
+          "Config firewall, microservice",
+          "Selected hardware vendors based on product quality and pricing",
+          "Selected software vendors"
+        ],
+        "company_url": null
+      }
+    ],
+    "projects": [],
+    "skills": {
+      "languages": [
+        "VB 3.0",
+        "VB .NET",
+        "C#",
+        "HTML",
+        "Javascript",
+        "XML",
+        "XSL",
+        "asp 3.0",
+        "vBulentin"
+      ],
+      "frameworks": [
+        "Ajax",
+        ".Net"
+      ],
+      "tools": [
+        "Microsoft Access 2000",
+        "Microsoft SQL Server 2000",
+        "MS SQL Server",
+        "MySQL",
+        "Reporting software",
+        "Excel",
+        "Windows",
+        "Linux",
+        "FoxPro",
+        "Windows Server 2003",
+        "Windows Server 2008",
+        "CentOS",
+        "LAN",
+        "WAN",
+        "Wifi",
+        "MariaDB",
+        "Ubuntu",
+        "Firewall",
+        "Docker",
+        "Docker swarm",
+        "Hyper V"
+      ],
+      "other": [
+        "microservice"
+      ]
+    },
+    "certifications": [],
+    "languages_spoken": [],
+    "metadata": {
+      "source_file": "aed49555-01e3-4814-8f08-ed86f35914ff.pdf",
+      "parse_method": "llamaparse",
+      "extraction_model": "gemini-2.5-flash",
+      "extracted_at": "2026-04-12T04:42:35.045508+00:00",
+      "warnings": [
+        "Schema validation warning: 4 validation errors for CVExtraction\nwork_experience.0.role\n  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.11/v/string_type\nwork_experience.1.role\n  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.11/v/string_type\nwork_experience.2.role\n  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.11/v/string_type\nwork_experience.3.role\n  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.11/v/string_type. Output may contain type mismatches."
+      ]
+    }
+  }
+]
