@@ -1,0 +1,1346 @@
+[
+    {
+        "candidate_id": "CV_IT_001",
+        "agent_2_status": "completed",
+        "social_profiles_data": [
+            {
+                "platform": "portfolio",
+                "original_url": "https://example-broken-link.com",
+                "crawl_status": "failed_network_error",
+                "error_message": "HTTPSConnectionPool(host='example-broken-link.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='example-broken-link.com', port=443): Failed to resolve 'example-broken-link.com' ([Errno 11001] getaddrinfo failed)\"))",
+                "raw_cleaned_data": null
+            },
+            {
+                "platform": "github",
+                "original_url": "https://github.com/yyx990803",
+                "crawl_status": "failed_rate_limit",
+                "error_message": "Bị giới hạn API",
+                "raw_cleaned_data": null
+            }
+        ],
+        "summary_metrics": {
+            "total_links_received": 2,
+            "successful_crawls": 0,
+            "failed_crawls": 2
+        },
+        "execution_time_ms": 2382
+    },
+    {
+        "candidate_id": "CV_IT_002",
+        "agent_2_status": "completed",
+        "social_profiles_data": [
+            {
+                "platform": "github",
+                "original_url": "https://github.com/torvalds",
+                "crawl_status": "failed_rate_limit",
+                "error_message": "Bị giới hạn API",
+                "raw_cleaned_data": null
+            },
+            {
+                "platform": "linkedin",
+                "original_url": "https://linkedin.com/in/not-exist-404-error",
+                "crawl_status": "failed_private_profile",
+                "error_message": "LinkedIn yêu cầu đăng nhập",
+                "raw_cleaned_data": null
+            }
+        ],
+        "summary_metrics": {
+            "total_links_received": 2,
+            "successful_crawls": 0,
+            "failed_crawls": 2
+        },
+        "execution_time_ms": 1380
+    },
+    {
+        "candidate_id": "CV_IT_003",
+        "agent_2_status": "completed",
+        "social_profiles_data": [
+            {
+                "platform": "portfolio",
+                "original_url": "https://example-broken-link.com",
+                "crawl_status": "failed_network_error",
+                "error_message": "HTTPSConnectionPool(host='example-broken-link.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='example-broken-link.com', port=443): Failed to resolve 'example-broken-link.com' ([Errno 11001] getaddrinfo failed)\"))",
+                "raw_cleaned_data": null
+            },
+            {
+                "platform": "github",
+                "original_url": "https://github.com/yyx990803",
+                "crawl_status": "failed_rate_limit",
+                "error_message": "Bị giới hạn API",
+                "raw_cleaned_data": null
+            },
+            {
+                "platform": "linkedin",
+                "original_url": "https://linkedin.com/in/nguyenvana123",
+                "crawl_status": "failed_private_profile",
+                "error_message": "LinkedIn yêu cầu đăng nhập",
+                "raw_cleaned_data": null
+            }
+        ],
+        "summary_metrics": {
+            "total_links_received": 3,
+            "successful_crawls": 0,
+            "failed_crawls": 3
+        },
+        "execution_time_ms": 1025
+    },
+    {
+        "candidate_id": "CV_IT_004",
+        "agent_2_status": "completed",
+        "social_profiles_data": [
+            {
+                "platform": "github",
+                "original_url": "https://github.com/invalid_user_99999",
+                "crawl_status": "failed_rate_limit",
+                "error_message": "Bị giới hạn API",
+                "raw_cleaned_data": null
+            }
+        ],
+        "summary_metrics": {
+            "total_links_received": 1,
+            "successful_crawls": 0,
+            "failed_crawls": 1
+        },
+        "execution_time_ms": 938
+    },
+    {
+        "candidate_id": "CV_IT_005",
+        "agent_2_status": "completed",
+        "social_profiles_data": [
+            {
+                "platform": "linkedin",
+                "original_url": "https://linkedin.com/in/nguyenvana123",
+                "crawl_status": "failed_private_profile",
+                "error_message": "LinkedIn yêu cầu đăng nhập",
+                "raw_cleaned_data": null
+            },
+            {
+                "platform": "portfolio",
+                "original_url": "https://portfolio-nguyenvana.vercel.app",
+                "crawl_status": "failed_404",
+                "error_message": "HTTP 404 - Không tìm thấy trang",
+                "raw_cleaned_data": null
+            },
+            {
+                "platform": "github",
+                "original_url": "https://github.com/karpathy",
+                "crawl_status": "failed_rate_limit",
+                "error_message": "Bị giới hạn API",
+                "raw_cleaned_data": null
+            }
+        ],
+        "summary_metrics": {
+            "total_links_received": 3,
+            "successful_crawls": 0,
+            "failed_crawls": 3
+        },
+        "execution_time_ms": 2265
+    },
+    {
+        "candidate_id": "CV_IT_006",
+        "agent_2_status": "completed",
+        "social_profiles_data": [
+            {
+                "platform": "linkedin",
+                "original_url": "https://linkedin.com/in/nguyenvana123",
+                "crawl_status": "failed_private_profile",
+                "error_message": "LinkedIn yêu cầu đăng nhập",
+                "raw_cleaned_data": null
+            },
+            {
+                "platform": "github",
+                "original_url": "https://github.com/yyx990803",
+                "crawl_status": "failed_rate_limit",
+                "error_message": "Bị giới hạn API",
+                "raw_cleaned_data": null
+            },
+            {
+                "platform": "portfolio",
+                "original_url": "https://example-broken-link.com",
+                "crawl_status": "failed_network_error",
+                "error_message": "HTTPSConnectionPool(host='example-broken-link.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='example-broken-link.com', port=443): Failed to resolve 'example-broken-link.com' ([Errno 11001] getaddrinfo failed)\"))",
+                "raw_cleaned_data": null
+            }
+        ],
+        "summary_metrics": {
+            "total_links_received": 3,
+            "successful_crawls": 0,
+            "failed_crawls": 3
+        },
+        "execution_time_ms": 1067
+    },
+    {
+        "candidate_id": "CV_IT_007",
+        "agent_2_status": "completed",
+        "social_profiles_data": [
+            {
+                "platform": "linkedin",
+                "original_url": "https://www.linkedin.com/in/williamhgates",
+                "crawl_status": "failed_private_profile",
+                "error_message": "LinkedIn yêu cầu đăng nhập",
+                "raw_cleaned_data": null
+            },
+            {
+                "platform": "portfolio",
+                "original_url": "https://my-awesome-cv-error.com",
+                "crawl_status": "failed_network_error",
+                "error_message": "HTTPSConnectionPool(host='my-awesome-cv-error.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='my-awesome-cv-error.com', port=443): Failed to resolve 'my-awesome-cv-error.com' ([Errno 11001] getaddrinfo failed)\"))",
+                "raw_cleaned_data": null
+            },
+            {
+                "platform": "github",
+                "original_url": "https://github.com/yyx990803",
+                "crawl_status": "failed_rate_limit",
+                "error_message": "Bị giới hạn API",
+                "raw_cleaned_data": null
+            }
+        ],
+        "summary_metrics": {
+            "total_links_received": 3,
+            "successful_crawls": 0,
+            "failed_crawls": 3
+        },
+        "execution_time_ms": 883
+    },
+    {
+        "candidate_id": "CV_IT_008",
+        "agent_2_status": "completed",
+        "social_profiles_data": [
+            {
+                "platform": "portfolio",
+                "original_url": "https://github.blog",
+                "crawl_status": "success",
+                "error_message": null,
+                "raw_cleaned_data": {
+                    "website_content": "Home - The GitHub Blog Skip to content / Blog Try GitHub Copilot See what's new Search Developer skills GitHub for Beginners: Getting started with GitHub Pages Learn how to create a free website for any repository on GitHub Pages. AI & ML GitHub Copilot CLI for Beginners: Getting started with GitHub Copilot CLI GitHub for Beginners: Getting started with the GitHub Copilot CLI, a step-by-step tutorial. Company news GitHub Universe is back: We want you to take the stage Get inspired by five of the most memorable, magical, and quirky Universe sessions to date. AI & ML GitHub Copilot CLI combines model families for a second opinion Discover how Rubber Duck provides a different perspective to GitHub Copilot CLI. We do newsletters, too Discover tips, technical guides, and best practices in our biweekly newsletter just for devs. Your email address * Your email address Subscribe Yes please, I’d like GitHub and affiliates to use my information for personalized communications, targeted advertising and campaign effectiveness. See the GitHub Privacy Statement for more details. Subscribe Latest View all Company news GitHub availability report: March 2026 In March, we experienced four incidents that resulted in degraded performance across GitHub services. Architecture & optimization The uphill climb of making diff lines performant The path to better performance is often found in simplicity. Security Securing the open source supply chain across GitHub Recent attacks on open source focus on exfiltrating secrets; here are the prevention steps you can take today, plus a look at the security capabilities GitHub is working on. Popular All categories All categories AI & ML Company Developer skills Engineering Enterprise software News & insights Open Source Security Company news Updates to GitHub Copilot interaction data usage policy From April 24 onward, interaction data—specifically inputs, outputs, code snippets, and associated context—from Copilot Free, Pro, and Pro+ users will be used to train and improve our AI models unless they opt out. Company news Addressing GitHub’s recent availability issues GitHub recently experienced several availability incidents. We understand the impact these outages have on our customers and are sharing details on the stabilization work we’re prioritizing right now. AI & ML Spec-driven development with AI: Get started with a new open source toolkit Developers can use their AI tool of choice for spec-driven development with this open source toolkit. Changelog View all changes GitHub Code Quality: Improvements to standard findings in public preview April 14, 2026 Copilot data residency in US + EU and FedRAMP compliance now available April 13, 2026 Fix merge conflicts in three clicks with Copilot cloud agent April 13, 2026 Remote control CLI sessions on web and mobile in public preview April 13, 2026 View all changes Engineering More engineering articles Continuous AI for accessibility: How GitHub transforms feedback into inclusion AI a"
+                }
+            }
+        ],
+        "summary_metrics": {
+            "total_links_received": 1,
+            "successful_crawls": 1,
+            "failed_crawls": 0
+        },
+        "execution_time_ms": 1323
+    },
+    {
+        "candidate_id": "CV_IT_009",
+        "agent_2_status": "completed",
+        "social_profiles_data": [
+            {
+                "platform": "github",
+                "original_url": "https://github.com/yyx990803",
+                "crawl_status": "failed_rate_limit",
+                "error_message": "Bị giới hạn API",
+                "raw_cleaned_data": null
+            }
+        ],
+        "summary_metrics": {
+            "total_links_received": 1,
+            "successful_crawls": 0,
+            "failed_crawls": 1
+        },
+        "execution_time_ms": 816
+    },
+    {
+        "candidate_id": "CV_IT_010",
+        "agent_2_status": "completed",
+        "social_profiles_data": [
+            {
+                "platform": "linkedin",
+                "original_url": "https://linkedin.com/in/nguyenvana123",
+                "crawl_status": "failed_private_profile",
+                "error_message": "LinkedIn yêu cầu đăng nhập",
+                "raw_cleaned_data": null
+            },
+            {
+                "platform": "github",
+                "original_url": "https://github.com/invalid_user_99999",
+                "crawl_status": "failed_rate_limit",
+                "error_message": "Bị giới hạn API",
+                "raw_cleaned_data": null
+            }
+        ],
+        "summary_metrics": {
+            "total_links_received": 2,
+            "successful_crawls": 0,
+            "failed_crawls": 2
+        },
+        "execution_time_ms": 854
+    },
+    {
+        "candidate_id": "CV_IT_011",
+        "agent_2_status": "completed",
+        "social_profiles_data": [
+            {
+                "platform": "linkedin",
+                "original_url": "https://linkedin.com/in/nguyenvana123",
+                "crawl_status": "failed_private_profile",
+                "error_message": "LinkedIn yêu cầu đăng nhập",
+                "raw_cleaned_data": null
+            },
+            {
+                "platform": "portfolio",
+                "original_url": "https://portfolio-nguyenvana.vercel.app",
+                "crawl_status": "failed_404",
+                "error_message": "HTTP 404 - Không tìm thấy trang",
+                "raw_cleaned_data": null
+            }
+        ],
+        "summary_metrics": {
+            "total_links_received": 2,
+            "successful_crawls": 0,
+            "failed_crawls": 2
+        },
+        "execution_time_ms": 793
+    },
+    {
+        "candidate_id": "CV_IT_012",
+        "agent_2_status": "completed",
+        "social_profiles_data": [
+            {
+                "platform": "portfolio",
+                "original_url": "https://portfolio-nguyenvana.vercel.app",
+                "crawl_status": "failed_404",
+                "error_message": "HTTP 404 - Không tìm thấy trang",
+                "raw_cleaned_data": null
+            },
+            {
+                "platform": "github",
+                "original_url": "https://github.com/torvalds",
+                "crawl_status": "failed_rate_limit",
+                "error_message": "Bị giới hạn API",
+                "raw_cleaned_data": null
+            }
+        ],
+        "summary_metrics": {
+            "total_links_received": 2,
+            "successful_crawls": 0,
+            "failed_crawls": 2
+        },
+        "execution_time_ms": 1586
+    },
+    {
+        "candidate_id": "CV_IT_013",
+        "agent_2_status": "completed",
+        "social_profiles_data": [
+            {
+                "platform": "portfolio",
+                "original_url": "https://github.blog",
+                "crawl_status": "success",
+                "error_message": null,
+                "raw_cleaned_data": {
+                    "website_content": "Home - The GitHub Blog Skip to content / Blog Try GitHub Copilot See what's new Search Developer skills GitHub for Beginners: Getting started with GitHub Pages Learn how to create a free website for any repository on GitHub Pages. AI & ML GitHub Copilot CLI for Beginners: Getting started with GitHub Copilot CLI GitHub for Beginners: Getting started with the GitHub Copilot CLI, a step-by-step tutorial. Company news GitHub Universe is back: We want you to take the stage Get inspired by five of the most memorable, magical, and quirky Universe sessions to date. AI & ML GitHub Copilot CLI combines model families for a second opinion Discover how Rubber Duck provides a different perspective to GitHub Copilot CLI. We do newsletters, too Discover tips, technical guides, and best practices in our biweekly newsletter just for devs. Your email address * Your email address Subscribe Yes please, I’d like GitHub and affiliates to use my information for personalized communications, targeted advertising and campaign effectiveness. See the GitHub Privacy Statement for more details. Subscribe Latest View all Company news GitHub availability report: March 2026 In March, we experienced four incidents that resulted in degraded performance across GitHub services. Architecture & optimization The uphill climb of making diff lines performant The path to better performance is often found in simplicity. Security Securing the open source supply chain across GitHub Recent attacks on open source focus on exfiltrating secrets; here are the prevention steps you can take today, plus a look at the security capabilities GitHub is working on. Popular All categories All categories AI & ML Company Developer skills Engineering Enterprise software News & insights Open Source Security Company news Updates to GitHub Copilot interaction data usage policy From April 24 onward, interaction data—specifically inputs, outputs, code snippets, and associated context—from Copilot Free, Pro, and Pro+ users will be used to train and improve our AI models unless they opt out. Company news Addressing GitHub’s recent availability issues GitHub recently experienced several availability incidents. We understand the impact these outages have on our customers and are sharing details on the stabilization work we’re prioritizing right now. AI & ML Spec-driven development with AI: Get started with a new open source toolkit Developers can use their AI tool of choice for spec-driven development with this open source toolkit. Changelog View all changes GitHub Code Quality: Improvements to standard findings in public preview April 14, 2026 Copilot data residency in US + EU and FedRAMP compliance now available April 13, 2026 Fix merge conflicts in three clicks with Copilot cloud agent April 13, 2026 Remote control CLI sessions on web and mobile in public preview April 13, 2026 View all changes Engineering More engineering articles Continuous AI for accessibility: How GitHub transforms feedback into inclusion AI a"
+                }
+            }
+        ],
+        "summary_metrics": {
+            "total_links_received": 1,
+            "successful_crawls": 1,
+            "failed_crawls": 0
+        },
+        "execution_time_ms": 1096
+    },
+    {
+        "candidate_id": "CV_IT_014",
+        "agent_2_status": "completed",
+        "social_profiles_data": [
+            {
+                "platform": "portfolio",
+                "original_url": "https://my-awesome-cv-error.com",
+                "crawl_status": "failed_network_error",
+                "error_message": "HTTPSConnectionPool(host='my-awesome-cv-error.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='my-awesome-cv-error.com', port=443): Failed to resolve 'my-awesome-cv-error.com' ([Errno 11001] getaddrinfo failed)\"))",
+                "raw_cleaned_data": null
+            }
+        ],
+        "summary_metrics": {
+            "total_links_received": 1,
+            "successful_crawls": 0,
+            "failed_crawls": 1
+        },
+        "execution_time_ms": 61
+    },
+    {
+        "candidate_id": "CV_IT_015",
+        "agent_2_status": "completed",
+        "social_profiles_data": [
+            {
+                "platform": "linkedin",
+                "original_url": "https://linkedin.com/in/not-exist-404-error",
+                "crawl_status": "failed_private_profile",
+                "error_message": "LinkedIn yêu cầu đăng nhập",
+                "raw_cleaned_data": null
+            },
+            {
+                "platform": "portfolio",
+                "original_url": "https://example-broken-link.com",
+                "crawl_status": "failed_network_error",
+                "error_message": "HTTPSConnectionPool(host='example-broken-link.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='example-broken-link.com', port=443): Failed to resolve 'example-broken-link.com' ([Errno 11001] getaddrinfo failed)\"))",
+                "raw_cleaned_data": null
+            }
+        ],
+        "summary_metrics": {
+            "total_links_received": 2,
+            "successful_crawls": 0,
+            "failed_crawls": 2
+        },
+        "execution_time_ms": 8
+    },
+    {
+        "candidate_id": "CV_IT_016",
+        "agent_2_status": "completed",
+        "social_profiles_data": [
+            {
+                "platform": "linkedin",
+                "original_url": "https://www.linkedin.com/in/williamhgates",
+                "crawl_status": "failed_private_profile",
+                "error_message": "LinkedIn yêu cầu đăng nhập",
+                "raw_cleaned_data": null
+            },
+            {
+                "platform": "portfolio",
+                "original_url": "https://portfolio-nguyenvana.vercel.app",
+                "crawl_status": "failed_404",
+                "error_message": "HTTP 404 - Không tìm thấy trang",
+                "raw_cleaned_data": null
+            },
+            {
+                "platform": "github",
+                "original_url": "https://github.com/invalid_user_99999",
+                "crawl_status": "failed_rate_limit",
+                "error_message": "Bị giới hạn API",
+                "raw_cleaned_data": null
+            }
+        ],
+        "summary_metrics": {
+            "total_links_received": 3,
+            "successful_crawls": 0,
+            "failed_crawls": 3
+        },
+        "execution_time_ms": 1563
+    },
+    {
+        "candidate_id": "CV_IT_017",
+        "agent_2_status": "completed",
+        "social_profiles_data": [
+            {
+                "platform": "linkedin",
+                "original_url": "https://linkedin.com/in/not-exist-404-error",
+                "crawl_status": "failed_private_profile",
+                "error_message": "LinkedIn yêu cầu đăng nhập",
+                "raw_cleaned_data": null
+            },
+            {
+                "platform": "portfolio",
+                "original_url": "https://portfolio-nguyenvana.vercel.app",
+                "crawl_status": "failed_404",
+                "error_message": "HTTP 404 - Không tìm thấy trang",
+                "raw_cleaned_data": null
+            },
+            {
+                "platform": "github",
+                "original_url": "https://github.com/invalid_user_99999",
+                "crawl_status": "failed_rate_limit",
+                "error_message": "Bị giới hạn API",
+                "raw_cleaned_data": null
+            }
+        ],
+        "summary_metrics": {
+            "total_links_received": 3,
+            "successful_crawls": 0,
+            "failed_crawls": 3
+        },
+        "execution_time_ms": 1849
+    },
+    {
+        "candidate_id": "CV_IT_018",
+        "agent_2_status": "completed",
+        "social_profiles_data": [
+            {
+                "platform": "linkedin",
+                "original_url": "https://linkedin.com/in/not-exist-404-error",
+                "crawl_status": "failed_private_profile",
+                "error_message": "LinkedIn yêu cầu đăng nhập",
+                "raw_cleaned_data": null
+            },
+            {
+                "platform": "github",
+                "original_url": "https://github.com/invalid_user_99999",
+                "crawl_status": "failed_rate_limit",
+                "error_message": "Bị giới hạn API",
+                "raw_cleaned_data": null
+            },
+            {
+                "platform": "portfolio",
+                "original_url": "https://portfolio-nguyenvana.vercel.app",
+                "crawl_status": "failed_404",
+                "error_message": "HTTP 404 - Không tìm thấy trang",
+                "raw_cleaned_data": null
+            }
+        ],
+        "summary_metrics": {
+            "total_links_received": 3,
+            "successful_crawls": 0,
+            "failed_crawls": 3
+        },
+        "execution_time_ms": 1529
+    },
+    {
+        "candidate_id": "CV_IT_019",
+        "agent_2_status": "completed",
+        "social_profiles_data": [
+            {
+                "platform": "linkedin",
+                "original_url": "https://www.linkedin.com/in/williamhgates",
+                "crawl_status": "failed_private_profile",
+                "error_message": "LinkedIn yêu cầu đăng nhập",
+                "raw_cleaned_data": null
+            },
+            {
+                "platform": "portfolio",
+                "original_url": "https://my-awesome-cv-error.com",
+                "crawl_status": "failed_network_error",
+                "error_message": "HTTPSConnectionPool(host='my-awesome-cv-error.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='my-awesome-cv-error.com', port=443): Failed to resolve 'my-awesome-cv-error.com' ([Errno 11001] getaddrinfo failed)\"))",
+                "raw_cleaned_data": null
+            },
+            {
+                "platform": "github",
+                "original_url": "https://github.com/karpathy",
+                "crawl_status": "failed_rate_limit",
+                "error_message": "Bị giới hạn API",
+                "raw_cleaned_data": null
+            }
+        ],
+        "summary_metrics": {
+            "total_links_received": 3,
+            "successful_crawls": 0,
+            "failed_crawls": 3
+        },
+        "execution_time_ms": 803
+    },
+    {
+        "candidate_id": "CV_IT_020",
+        "agent_2_status": "completed",
+        "social_profiles_data": [
+            {
+                "platform": "linkedin",
+                "original_url": "https://www.linkedin.com/in/williamhgates",
+                "crawl_status": "failed_private_profile",
+                "error_message": "LinkedIn yêu cầu đăng nhập",
+                "raw_cleaned_data": null
+            },
+            {
+                "platform": "portfolio",
+                "original_url": "https://my-awesome-cv-error.com",
+                "crawl_status": "failed_network_error",
+                "error_message": "HTTPSConnectionPool(host='my-awesome-cv-error.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='my-awesome-cv-error.com', port=443): Failed to resolve 'my-awesome-cv-error.com' ([Errno 11001] getaddrinfo failed)\"))",
+                "raw_cleaned_data": null
+            },
+            {
+                "platform": "github",
+                "original_url": "https://github.com/invalid_user_99999",
+                "crawl_status": "failed_rate_limit",
+                "error_message": "Bị giới hạn API",
+                "raw_cleaned_data": null
+            }
+        ],
+        "summary_metrics": {
+            "total_links_received": 3,
+            "successful_crawls": 0,
+            "failed_crawls": 3
+        },
+        "execution_time_ms": 783
+    },
+    {
+        "candidate_id": "CV_IT_021",
+        "agent_2_status": "completed",
+        "social_profiles_data": [
+            {
+                "platform": "github",
+                "original_url": "https://github.com/torvalds",
+                "crawl_status": "failed_rate_limit",
+                "error_message": "Bị giới hạn API",
+                "raw_cleaned_data": null
+            },
+            {
+                "platform": "linkedin",
+                "original_url": "https://linkedin.com/in/nguyenvana123",
+                "crawl_status": "failed_private_profile",
+                "error_message": "LinkedIn yêu cầu đăng nhập",
+                "raw_cleaned_data": null
+            }
+        ],
+        "summary_metrics": {
+            "total_links_received": 2,
+            "successful_crawls": 0,
+            "failed_crawls": 2
+        },
+        "execution_time_ms": 766
+    },
+    {
+        "candidate_id": "CV_IT_022",
+        "agent_2_status": "completed",
+        "social_profiles_data": [
+            {
+                "platform": "portfolio",
+                "original_url": "https://my-awesome-cv-error.com",
+                "crawl_status": "failed_network_error",
+                "error_message": "HTTPSConnectionPool(host='my-awesome-cv-error.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='my-awesome-cv-error.com', port=443): Failed to resolve 'my-awesome-cv-error.com' ([Errno 11001] getaddrinfo failed)\"))",
+                "raw_cleaned_data": null
+            },
+            {
+                "platform": "github",
+                "original_url": "https://github.com",
+                "crawl_status": "failed_invalid_url",
+                "error_message": "Không trích xuất được username",
+                "raw_cleaned_data": null
+            }
+        ],
+        "summary_metrics": {
+            "total_links_received": 2,
+            "successful_crawls": 0,
+            "failed_crawls": 2
+        },
+        "execution_time_ms": 0
+    },
+    {
+        "candidate_id": "CV_IT_023",
+        "agent_2_status": "completed",
+        "social_profiles_data": [
+            {
+                "platform": "linkedin",
+                "original_url": "https://www.linkedin.com/in/williamhgates",
+                "crawl_status": "failed_private_profile",
+                "error_message": "LinkedIn yêu cầu đăng nhập",
+                "raw_cleaned_data": null
+            }
+        ],
+        "summary_metrics": {
+            "total_links_received": 1,
+            "successful_crawls": 0,
+            "failed_crawls": 1
+        },
+        "execution_time_ms": 0
+    },
+    {
+        "candidate_id": "CV_IT_024",
+        "agent_2_status": "completed",
+        "social_profiles_data": [
+            {
+                "platform": "portfolio",
+                "original_url": "https://example-broken-link.com",
+                "crawl_status": "failed_network_error",
+                "error_message": "HTTPSConnectionPool(host='example-broken-link.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='example-broken-link.com', port=443): Failed to resolve 'example-broken-link.com' ([Errno 11001] getaddrinfo failed)\"))",
+                "raw_cleaned_data": null
+            }
+        ],
+        "summary_metrics": {
+            "total_links_received": 1,
+            "successful_crawls": 0,
+            "failed_crawls": 1
+        },
+        "execution_time_ms": 1
+    },
+    {
+        "candidate_id": "CV_IT_025",
+        "agent_2_status": "completed",
+        "social_profiles_data": [
+            {
+                "platform": "portfolio",
+                "original_url": "https://portfolio-nguyenvana.vercel.app",
+                "crawl_status": "failed_404",
+                "error_message": "HTTP 404 - Không tìm thấy trang",
+                "raw_cleaned_data": null
+            },
+            {
+                "platform": "linkedin",
+                "original_url": "https://www.linkedin.com/in/williamhgates",
+                "crawl_status": "failed_private_profile",
+                "error_message": "LinkedIn yêu cầu đăng nhập",
+                "raw_cleaned_data": null
+            },
+            {
+                "platform": "github",
+                "original_url": "https://github.com",
+                "crawl_status": "failed_invalid_url",
+                "error_message": "Không trích xuất được username",
+                "raw_cleaned_data": null
+            }
+        ],
+        "summary_metrics": {
+            "total_links_received": 3,
+            "successful_crawls": 0,
+            "failed_crawls": 3
+        },
+        "execution_time_ms": 717
+    },
+    {
+        "candidate_id": "CV_IT_026",
+        "agent_2_status": "completed",
+        "social_profiles_data": [
+            {
+                "platform": "portfolio",
+                "original_url": "https://example-broken-link.com",
+                "crawl_status": "failed_network_error",
+                "error_message": "HTTPSConnectionPool(host='example-broken-link.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='example-broken-link.com', port=443): Failed to resolve 'example-broken-link.com' ([Errno 11001] getaddrinfo failed)\"))",
+                "raw_cleaned_data": null
+            },
+            {
+                "platform": "linkedin",
+                "original_url": "https://linkedin.com/in/nguyenvana123",
+                "crawl_status": "failed_private_profile",
+                "error_message": "LinkedIn yêu cầu đăng nhập",
+                "raw_cleaned_data": null
+            }
+        ],
+        "summary_metrics": {
+            "total_links_received": 2,
+            "successful_crawls": 0,
+            "failed_crawls": 2
+        },
+        "execution_time_ms": 1
+    },
+    {
+        "candidate_id": "CV_IT_027",
+        "agent_2_status": "completed",
+        "social_profiles_data": [
+            {
+                "platform": "linkedin",
+                "original_url": "https://linkedin.com/in/nguyenvana123",
+                "crawl_status": "failed_private_profile",
+                "error_message": "LinkedIn yêu cầu đăng nhập",
+                "raw_cleaned_data": null
+            },
+            {
+                "platform": "portfolio",
+                "original_url": "https://example-broken-link.com",
+                "crawl_status": "failed_network_error",
+                "error_message": "HTTPSConnectionPool(host='example-broken-link.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='example-broken-link.com', port=443): Failed to resolve 'example-broken-link.com' ([Errno 11001] getaddrinfo failed)\"))",
+                "raw_cleaned_data": null
+            }
+        ],
+        "summary_metrics": {
+            "total_links_received": 2,
+            "successful_crawls": 0,
+            "failed_crawls": 2
+        },
+        "execution_time_ms": 6
+    },
+    {
+        "candidate_id": "CV_IT_028",
+        "agent_2_status": "completed",
+        "social_profiles_data": [
+            {
+                "platform": "github",
+                "original_url": "https://github.com/karpathy",
+                "crawl_status": "failed_rate_limit",
+                "error_message": "Bị giới hạn API",
+                "raw_cleaned_data": null
+            },
+            {
+                "platform": "portfolio",
+                "original_url": "https://portfolio-nguyenvana.vercel.app",
+                "crawl_status": "failed_404",
+                "error_message": "HTTP 404 - Không tìm thấy trang",
+                "raw_cleaned_data": null
+            }
+        ],
+        "summary_metrics": {
+            "total_links_received": 2,
+            "successful_crawls": 0,
+            "failed_crawls": 2
+        },
+        "execution_time_ms": 1492
+    },
+    {
+        "candidate_id": "CV_IT_029",
+        "agent_2_status": "completed",
+        "social_profiles_data": [
+            {
+                "platform": "portfolio",
+                "original_url": "https://example-broken-link.com",
+                "crawl_status": "failed_network_error",
+                "error_message": "HTTPSConnectionPool(host='example-broken-link.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='example-broken-link.com', port=443): Failed to resolve 'example-broken-link.com' ([Errno 11001] getaddrinfo failed)\"))",
+                "raw_cleaned_data": null
+            },
+            {
+                "platform": "github",
+                "original_url": "https://github.com/invalid_user_99999",
+                "crawl_status": "failed_rate_limit",
+                "error_message": "Bị giới hạn API",
+                "raw_cleaned_data": null
+            }
+        ],
+        "summary_metrics": {
+            "total_links_received": 2,
+            "successful_crawls": 0,
+            "failed_crawls": 2
+        },
+        "execution_time_ms": 750
+    },
+    {
+        "candidate_id": "CV_IT_030",
+        "agent_2_status": "completed",
+        "social_profiles_data": [
+            {
+                "platform": "linkedin",
+                "original_url": "https://linkedin.com/in/not-exist-404-error",
+                "crawl_status": "failed_private_profile",
+                "error_message": "LinkedIn yêu cầu đăng nhập",
+                "raw_cleaned_data": null
+            },
+            {
+                "platform": "portfolio",
+                "original_url": "https://example-broken-link.com",
+                "crawl_status": "failed_network_error",
+                "error_message": "HTTPSConnectionPool(host='example-broken-link.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='example-broken-link.com', port=443): Failed to resolve 'example-broken-link.com' ([Errno 11001] getaddrinfo failed)\"))",
+                "raw_cleaned_data": null
+            },
+            {
+                "platform": "github",
+                "original_url": "https://github.com/karpathy",
+                "crawl_status": "failed_rate_limit",
+                "error_message": "Bị giới hạn API",
+                "raw_cleaned_data": null
+            }
+        ],
+        "summary_metrics": {
+            "total_links_received": 3,
+            "successful_crawls": 0,
+            "failed_crawls": 3
+        },
+        "execution_time_ms": 783
+    },
+    {
+        "candidate_id": "CV_IT_031",
+        "agent_2_status": "completed",
+        "social_profiles_data": [
+            {
+                "platform": "linkedin",
+                "original_url": "https://www.linkedin.com/in/williamhgates",
+                "crawl_status": "failed_private_profile",
+                "error_message": "LinkedIn yêu cầu đăng nhập",
+                "raw_cleaned_data": null
+            },
+            {
+                "platform": "portfolio",
+                "original_url": "https://portfolio-nguyenvana.vercel.app",
+                "crawl_status": "failed_404",
+                "error_message": "HTTP 404 - Không tìm thấy trang",
+                "raw_cleaned_data": null
+            },
+            {
+                "platform": "github",
+                "original_url": "https://github.com/yyx990803",
+                "crawl_status": "failed_rate_limit",
+                "error_message": "Bị giới hạn API",
+                "raw_cleaned_data": null
+            }
+        ],
+        "summary_metrics": {
+            "total_links_received": 3,
+            "successful_crawls": 0,
+            "failed_crawls": 3
+        },
+        "execution_time_ms": 1549
+    },
+    {
+        "candidate_id": "CV_IT_032",
+        "agent_2_status": "completed",
+        "social_profiles_data": [
+            {
+                "platform": "linkedin",
+                "original_url": "https://linkedin.com/in/nguyenvana123",
+                "crawl_status": "failed_private_profile",
+                "error_message": "LinkedIn yêu cầu đăng nhập",
+                "raw_cleaned_data": null
+            }
+        ],
+        "summary_metrics": {
+            "total_links_received": 1,
+            "successful_crawls": 0,
+            "failed_crawls": 1
+        },
+        "execution_time_ms": 0
+    },
+    {
+        "candidate_id": "CV_IT_033",
+        "agent_2_status": "completed",
+        "social_profiles_data": [
+            {
+                "platform": "github",
+                "original_url": "https://github.com/karpathy",
+                "crawl_status": "failed_rate_limit",
+                "error_message": "Bị giới hạn API",
+                "raw_cleaned_data": null
+            },
+            {
+                "platform": "linkedin",
+                "original_url": "https://linkedin.com/in/nguyenvana123",
+                "crawl_status": "failed_private_profile",
+                "error_message": "LinkedIn yêu cầu đăng nhập",
+                "raw_cleaned_data": null
+            },
+            {
+                "platform": "portfolio",
+                "original_url": "https://github.blog",
+                "crawl_status": "success",
+                "error_message": null,
+                "raw_cleaned_data": {
+                    "website_content": "Home - The GitHub Blog Skip to content / Blog Try GitHub Copilot See what's new Search Developer skills GitHub for Beginners: Getting started with GitHub Pages Learn how to create a free website for any repository on GitHub Pages. AI & ML GitHub Copilot CLI for Beginners: Getting started with GitHub Copilot CLI GitHub for Beginners: Getting started with the GitHub Copilot CLI, a step-by-step tutorial. Company news GitHub Universe is back: We want you to take the stage Get inspired by five of the most memorable, magical, and quirky Universe sessions to date. AI & ML GitHub Copilot CLI combines model families for a second opinion Discover how Rubber Duck provides a different perspective to GitHub Copilot CLI. We do newsletters, too Discover tips, technical guides, and best practices in our biweekly newsletter just for devs. Your email address * Your email address Subscribe Yes please, I’d like GitHub and affiliates to use my information for personalized communications, targeted advertising and campaign effectiveness. See the GitHub Privacy Statement for more details. Subscribe Latest View all Company news GitHub availability report: March 2026 In March, we experienced four incidents that resulted in degraded performance across GitHub services. Architecture & optimization The uphill climb of making diff lines performant The path to better performance is often found in simplicity. Security Securing the open source supply chain across GitHub Recent attacks on open source focus on exfiltrating secrets; here are the prevention steps you can take today, plus a look at the security capabilities GitHub is working on. Popular All categories All categories AI & ML Company Developer skills Engineering Enterprise software News & insights Open Source Security Company news Updates to GitHub Copilot interaction data usage policy From April 24 onward, interaction data—specifically inputs, outputs, code snippets, and associated context—from Copilot Free, Pro, and Pro+ users will be used to train and improve our AI models unless they opt out. Company news Addressing GitHub’s recent availability issues GitHub recently experienced several availability incidents. We understand the impact these outages have on our customers and are sharing details on the stabilization work we’re prioritizing right now. AI & ML Spec-driven development with AI: Get started with a new open source toolkit Developers can use their AI tool of choice for spec-driven development with this open source toolkit. Changelog View all changes GitHub Code Quality: Improvements to standard findings in public preview April 14, 2026 Copilot data residency in US + EU and FedRAMP compliance now available April 13, 2026 Fix merge conflicts in three clicks with Copilot cloud agent April 13, 2026 Remote control CLI sessions on web and mobile in public preview April 13, 2026 View all changes Engineering More engineering articles Continuous AI for accessibility: How GitHub transforms feedback into inclusion AI a"
+                }
+            }
+        ],
+        "summary_metrics": {
+            "total_links_received": 3,
+            "successful_crawls": 1,
+            "failed_crawls": 2
+        },
+        "execution_time_ms": 1749
+    },
+    {
+        "candidate_id": "CV_IT_034",
+        "agent_2_status": "completed",
+        "social_profiles_data": [
+            {
+                "platform": "linkedin",
+                "original_url": "https://linkedin.com/in/not-exist-404-error",
+                "crawl_status": "failed_private_profile",
+                "error_message": "LinkedIn yêu cầu đăng nhập",
+                "raw_cleaned_data": null
+            },
+            {
+                "platform": "portfolio",
+                "original_url": "https://example-broken-link.com",
+                "crawl_status": "failed_network_error",
+                "error_message": "HTTPSConnectionPool(host='example-broken-link.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='example-broken-link.com', port=443): Failed to resolve 'example-broken-link.com' ([Errno 11001] getaddrinfo failed)\"))",
+                "raw_cleaned_data": null
+            }
+        ],
+        "summary_metrics": {
+            "total_links_received": 2,
+            "successful_crawls": 0,
+            "failed_crawls": 2
+        },
+        "execution_time_ms": 20
+    },
+    {
+        "candidate_id": "CV_IT_035",
+        "agent_2_status": "completed",
+        "social_profiles_data": [
+            {
+                "platform": "github",
+                "original_url": "https://github.com/invalid_user_99999",
+                "crawl_status": "failed_rate_limit",
+                "error_message": "Bị giới hạn API",
+                "raw_cleaned_data": null
+            },
+            {
+                "platform": "linkedin",
+                "original_url": "https://linkedin.com/in/nguyenvana123",
+                "crawl_status": "failed_private_profile",
+                "error_message": "LinkedIn yêu cầu đăng nhập",
+                "raw_cleaned_data": null
+            },
+            {
+                "platform": "portfolio",
+                "original_url": "https://github.blog",
+                "crawl_status": "success",
+                "error_message": null,
+                "raw_cleaned_data": {
+                    "website_content": "Home - The GitHub Blog Skip to content / Blog Try GitHub Copilot See what's new Search Developer skills GitHub for Beginners: Getting started with GitHub Pages Learn how to create a free website for any repository on GitHub Pages. AI & ML GitHub Copilot CLI for Beginners: Getting started with GitHub Copilot CLI GitHub for Beginners: Getting started with the GitHub Copilot CLI, a step-by-step tutorial. Company news GitHub Universe is back: We want you to take the stage Get inspired by five of the most memorable, magical, and quirky Universe sessions to date. AI & ML GitHub Copilot CLI combines model families for a second opinion Discover how Rubber Duck provides a different perspective to GitHub Copilot CLI. We do newsletters, too Discover tips, technical guides, and best practices in our biweekly newsletter just for devs. Your email address * Your email address Subscribe Yes please, I’d like GitHub and affiliates to use my information for personalized communications, targeted advertising and campaign effectiveness. See the GitHub Privacy Statement for more details. Subscribe Latest View all Company news GitHub availability report: March 2026 In March, we experienced four incidents that resulted in degraded performance across GitHub services. Architecture & optimization The uphill climb of making diff lines performant The path to better performance is often found in simplicity. Security Securing the open source supply chain across GitHub Recent attacks on open source focus on exfiltrating secrets; here are the prevention steps you can take today, plus a look at the security capabilities GitHub is working on. Popular All categories All categories AI & ML Company Developer skills Engineering Enterprise software News & insights Open Source Security Company news Updates to GitHub Copilot interaction data usage policy From April 24 onward, interaction data—specifically inputs, outputs, code snippets, and associated context—from Copilot Free, Pro, and Pro+ users will be used to train and improve our AI models unless they opt out. Company news Addressing GitHub’s recent availability issues GitHub recently experienced several availability incidents. We understand the impact these outages have on our customers and are sharing details on the stabilization work we’re prioritizing right now. AI & ML Spec-driven development with AI: Get started with a new open source toolkit Developers can use their AI tool of choice for spec-driven development with this open source toolkit. Changelog View all changes GitHub Code Quality: Improvements to standard findings in public preview April 14, 2026 Copilot data residency in US + EU and FedRAMP compliance now available April 13, 2026 Fix merge conflicts in three clicks with Copilot cloud agent April 13, 2026 Remote control CLI sessions on web and mobile in public preview April 13, 2026 View all changes Engineering More engineering articles Continuous AI for accessibility: How GitHub transforms feedback into inclusion AI a"
+                }
+            }
+        ],
+        "summary_metrics": {
+            "total_links_received": 3,
+            "successful_crawls": 1,
+            "failed_crawls": 2
+        },
+        "execution_time_ms": 1829
+    },
+    {
+        "candidate_id": "CV_IT_036",
+        "agent_2_status": "completed",
+        "social_profiles_data": [
+            {
+                "platform": "github",
+                "original_url": "https://github.com/invalid_user_99999",
+                "crawl_status": "failed_rate_limit",
+                "error_message": "Bị giới hạn API",
+                "raw_cleaned_data": null
+            },
+            {
+                "platform": "portfolio",
+                "original_url": "https://github.blog",
+                "crawl_status": "success",
+                "error_message": null,
+                "raw_cleaned_data": {
+                    "website_content": "Home - The GitHub Blog Skip to content / Blog Try GitHub Copilot See what's new Search Developer skills GitHub for Beginners: Getting started with GitHub Pages Learn how to create a free website for any repository on GitHub Pages. AI & ML GitHub Copilot CLI for Beginners: Getting started with GitHub Copilot CLI GitHub for Beginners: Getting started with the GitHub Copilot CLI, a step-by-step tutorial. Company news GitHub Universe is back: We want you to take the stage Get inspired by five of the most memorable, magical, and quirky Universe sessions to date. AI & ML GitHub Copilot CLI combines model families for a second opinion Discover how Rubber Duck provides a different perspective to GitHub Copilot CLI. We do newsletters, too Discover tips, technical guides, and best practices in our biweekly newsletter just for devs. Your email address * Your email address Subscribe Yes please, I’d like GitHub and affiliates to use my information for personalized communications, targeted advertising and campaign effectiveness. See the GitHub Privacy Statement for more details. Subscribe Latest View all Company news GitHub availability report: March 2026 In March, we experienced four incidents that resulted in degraded performance across GitHub services. Architecture & optimization The uphill climb of making diff lines performant The path to better performance is often found in simplicity. Security Securing the open source supply chain across GitHub Recent attacks on open source focus on exfiltrating secrets; here are the prevention steps you can take today, plus a look at the security capabilities GitHub is working on. Popular All categories All categories AI & ML Company Developer skills Engineering Enterprise software News & insights Open Source Security Company news Updates to GitHub Copilot interaction data usage policy From April 24 onward, interaction data—specifically inputs, outputs, code snippets, and associated context—from Copilot Free, Pro, and Pro+ users will be used to train and improve our AI models unless they opt out. Company news Addressing GitHub’s recent availability issues GitHub recently experienced several availability incidents. We understand the impact these outages have on our customers and are sharing details on the stabilization work we’re prioritizing right now. AI & ML Spec-driven development with AI: Get started with a new open source toolkit Developers can use their AI tool of choice for spec-driven development with this open source toolkit. Changelog View all changes GitHub Code Quality: Improvements to standard findings in public preview April 14, 2026 Copilot data residency in US + EU and FedRAMP compliance now available April 13, 2026 Fix merge conflicts in three clicks with Copilot cloud agent April 13, 2026 Remote control CLI sessions on web and mobile in public preview April 13, 2026 View all changes Engineering More engineering articles Continuous AI for accessibility: How GitHub transforms feedback into inclusion AI a"
+                }
+            }
+        ],
+        "summary_metrics": {
+            "total_links_received": 2,
+            "successful_crawls": 1,
+            "failed_crawls": 1
+        },
+        "execution_time_ms": 1746
+    },
+    {
+        "candidate_id": "CV_IT_037",
+        "agent_2_status": "completed",
+        "social_profiles_data": [
+            {
+                "platform": "portfolio",
+                "original_url": "https://github.blog",
+                "crawl_status": "success",
+                "error_message": null,
+                "raw_cleaned_data": {
+                    "website_content": "Home - The GitHub Blog Skip to content / Blog Try GitHub Copilot See what's new Search Developer skills GitHub for Beginners: Getting started with GitHub Pages Learn how to create a free website for any repository on GitHub Pages. AI & ML GitHub Copilot CLI for Beginners: Getting started with GitHub Copilot CLI GitHub for Beginners: Getting started with the GitHub Copilot CLI, a step-by-step tutorial. Company news GitHub Universe is back: We want you to take the stage Get inspired by five of the most memorable, magical, and quirky Universe sessions to date. AI & ML GitHub Copilot CLI combines model families for a second opinion Discover how Rubber Duck provides a different perspective to GitHub Copilot CLI. We do newsletters, too Discover tips, technical guides, and best practices in our biweekly newsletter just for devs. Your email address * Your email address Subscribe Yes please, I’d like GitHub and affiliates to use my information for personalized communications, targeted advertising and campaign effectiveness. See the GitHub Privacy Statement for more details. Subscribe Latest View all Company news GitHub availability report: March 2026 In March, we experienced four incidents that resulted in degraded performance across GitHub services. Architecture & optimization The uphill climb of making diff lines performant The path to better performance is often found in simplicity. Security Securing the open source supply chain across GitHub Recent attacks on open source focus on exfiltrating secrets; here are the prevention steps you can take today, plus a look at the security capabilities GitHub is working on. Popular All categories All categories AI & ML Company Developer skills Engineering Enterprise software News & insights Open Source Security Company news Updates to GitHub Copilot interaction data usage policy From April 24 onward, interaction data—specifically inputs, outputs, code snippets, and associated context—from Copilot Free, Pro, and Pro+ users will be used to train and improve our AI models unless they opt out. Company news Addressing GitHub’s recent availability issues GitHub recently experienced several availability incidents. We understand the impact these outages have on our customers and are sharing details on the stabilization work we’re prioritizing right now. AI & ML Spec-driven development with AI: Get started with a new open source toolkit Developers can use their AI tool of choice for spec-driven development with this open source toolkit. Changelog View all changes GitHub Code Quality: Improvements to standard findings in public preview April 14, 2026 Copilot data residency in US + EU and FedRAMP compliance now available April 13, 2026 Fix merge conflicts in three clicks with Copilot cloud agent April 13, 2026 Remote control CLI sessions on web and mobile in public preview April 13, 2026 View all changes Engineering More engineering articles Continuous AI for accessibility: How GitHub transforms feedback into inclusion AI a"
+                }
+            }
+        ],
+        "summary_metrics": {
+            "total_links_received": 1,
+            "successful_crawls": 1,
+            "failed_crawls": 0
+        },
+        "execution_time_ms": 970
+    },
+    {
+        "candidate_id": "CV_IT_038",
+        "agent_2_status": "completed",
+        "social_profiles_data": [
+            {
+                "platform": "linkedin",
+                "original_url": "https://linkedin.com/in/nguyenvana123",
+                "crawl_status": "failed_private_profile",
+                "error_message": "LinkedIn yêu cầu đăng nhập",
+                "raw_cleaned_data": null
+            },
+            {
+                "platform": "portfolio",
+                "original_url": "https://github.blog",
+                "crawl_status": "success",
+                "error_message": null,
+                "raw_cleaned_data": {
+                    "website_content": "Home - The GitHub Blog Skip to content / Blog Try GitHub Copilot See what's new Search Developer skills GitHub for Beginners: Getting started with GitHub Pages Learn how to create a free website for any repository on GitHub Pages. AI & ML GitHub Copilot CLI for Beginners: Getting started with GitHub Copilot CLI GitHub for Beginners: Getting started with the GitHub Copilot CLI, a step-by-step tutorial. Company news GitHub Universe is back: We want you to take the stage Get inspired by five of the most memorable, magical, and quirky Universe sessions to date. AI & ML GitHub Copilot CLI combines model families for a second opinion Discover how Rubber Duck provides a different perspective to GitHub Copilot CLI. We do newsletters, too Discover tips, technical guides, and best practices in our biweekly newsletter just for devs. Your email address * Your email address Subscribe Yes please, I’d like GitHub and affiliates to use my information for personalized communications, targeted advertising and campaign effectiveness. See the GitHub Privacy Statement for more details. Subscribe Latest View all Company news GitHub availability report: March 2026 In March, we experienced four incidents that resulted in degraded performance across GitHub services. Architecture & optimization The uphill climb of making diff lines performant The path to better performance is often found in simplicity. Security Securing the open source supply chain across GitHub Recent attacks on open source focus on exfiltrating secrets; here are the prevention steps you can take today, plus a look at the security capabilities GitHub is working on. Popular All categories All categories AI & ML Company Developer skills Engineering Enterprise software News & insights Open Source Security Company news Updates to GitHub Copilot interaction data usage policy From April 24 onward, interaction data—specifically inputs, outputs, code snippets, and associated context—from Copilot Free, Pro, and Pro+ users will be used to train and improve our AI models unless they opt out. Company news Addressing GitHub’s recent availability issues GitHub recently experienced several availability incidents. We understand the impact these outages have on our customers and are sharing details on the stabilization work we’re prioritizing right now. AI & ML Spec-driven development with AI: Get started with a new open source toolkit Developers can use their AI tool of choice for spec-driven development with this open source toolkit. Changelog View all changes GitHub Code Quality: Improvements to standard findings in public preview April 14, 2026 Copilot data residency in US + EU and FedRAMP compliance now available April 13, 2026 Fix merge conflicts in three clicks with Copilot cloud agent April 13, 2026 Remote control CLI sessions on web and mobile in public preview April 13, 2026 View all changes Engineering More engineering articles Continuous AI for accessibility: How GitHub transforms feedback into inclusion AI a"
+                }
+            },
+            {
+                "platform": "github",
+                "original_url": "https://github.com/torvalds",
+                "crawl_status": "failed_rate_limit",
+                "error_message": "Bị giới hạn API",
+                "raw_cleaned_data": null
+            }
+        ],
+        "summary_metrics": {
+            "total_links_received": 3,
+            "successful_crawls": 1,
+            "failed_crawls": 2
+        },
+        "execution_time_ms": 2217
+    },
+    {
+        "candidate_id": "CV_IT_039",
+        "agent_2_status": "completed",
+        "social_profiles_data": [
+            {
+                "platform": "linkedin",
+                "original_url": "https://linkedin.com/in/nguyenvana123",
+                "crawl_status": "failed_private_profile",
+                "error_message": "LinkedIn yêu cầu đăng nhập",
+                "raw_cleaned_data": null
+            }
+        ],
+        "summary_metrics": {
+            "total_links_received": 1,
+            "successful_crawls": 0,
+            "failed_crawls": 1
+        },
+        "execution_time_ms": 0
+    },
+    {
+        "candidate_id": "CV_IT_040",
+        "agent_2_status": "completed",
+        "social_profiles_data": [
+            {
+                "platform": "linkedin",
+                "original_url": "https://linkedin.com/in/nguyenvana123",
+                "crawl_status": "failed_private_profile",
+                "error_message": "LinkedIn yêu cầu đăng nhập",
+                "raw_cleaned_data": null
+            }
+        ],
+        "summary_metrics": {
+            "total_links_received": 1,
+            "successful_crawls": 0,
+            "failed_crawls": 1
+        },
+        "execution_time_ms": 0
+    },
+    {
+        "candidate_id": "CV_IT_041",
+        "agent_2_status": "completed",
+        "social_profiles_data": [
+            {
+                "platform": "github",
+                "original_url": "https://github.com",
+                "crawl_status": "failed_invalid_url",
+                "error_message": "Không trích xuất được username",
+                "raw_cleaned_data": null
+            },
+            {
+                "platform": "portfolio",
+                "original_url": "https://my-awesome-cv-error.com",
+                "crawl_status": "failed_network_error",
+                "error_message": "HTTPSConnectionPool(host='my-awesome-cv-error.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='my-awesome-cv-error.com', port=443): Failed to resolve 'my-awesome-cv-error.com' ([Errno 11001] getaddrinfo failed)\"))",
+                "raw_cleaned_data": null
+            },
+            {
+                "platform": "linkedin",
+                "original_url": "https://www.linkedin.com/in/williamhgates",
+                "crawl_status": "failed_private_profile",
+                "error_message": "LinkedIn yêu cầu đăng nhập",
+                "raw_cleaned_data": null
+            }
+        ],
+        "summary_metrics": {
+            "total_links_received": 3,
+            "successful_crawls": 0,
+            "failed_crawls": 3
+        },
+        "execution_time_ms": 16
+    },
+    {
+        "candidate_id": "CV_IT_042",
+        "agent_2_status": "completed",
+        "social_profiles_data": [
+            {
+                "platform": "portfolio",
+                "original_url": "https://portfolio-nguyenvana.vercel.app",
+                "crawl_status": "failed_404",
+                "error_message": "HTTP 404 - Không tìm thấy trang",
+                "raw_cleaned_data": null
+            },
+            {
+                "platform": "linkedin",
+                "original_url": "https://linkedin.com/in/not-exist-404-error",
+                "crawl_status": "failed_private_profile",
+                "error_message": "LinkedIn yêu cầu đăng nhập",
+                "raw_cleaned_data": null
+            },
+            {
+                "platform": "github",
+                "original_url": "https://github.com",
+                "crawl_status": "failed_invalid_url",
+                "error_message": "Không trích xuất được username",
+                "raw_cleaned_data": null
+            }
+        ],
+        "summary_metrics": {
+            "total_links_received": 3,
+            "successful_crawls": 0,
+            "failed_crawls": 3
+        },
+        "execution_time_ms": 831
+    },
+    {
+        "candidate_id": "CV_IT_043",
+        "agent_2_status": "completed",
+        "social_profiles_data": [
+            {
+                "platform": "portfolio",
+                "original_url": "https://my-awesome-cv-error.com",
+                "crawl_status": "failed_network_error",
+                "error_message": "HTTPSConnectionPool(host='my-awesome-cv-error.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='my-awesome-cv-error.com', port=443): Failed to resolve 'my-awesome-cv-error.com' ([Errno 11001] getaddrinfo failed)\"))",
+                "raw_cleaned_data": null
+            },
+            {
+                "platform": "linkedin",
+                "original_url": "https://linkedin.com/in/not-exist-404-error",
+                "crawl_status": "failed_private_profile",
+                "error_message": "LinkedIn yêu cầu đăng nhập",
+                "raw_cleaned_data": null
+            }
+        ],
+        "summary_metrics": {
+            "total_links_received": 2,
+            "successful_crawls": 0,
+            "failed_crawls": 2
+        },
+        "execution_time_ms": 2
+    },
+    {
+        "candidate_id": "CV_IT_044",
+        "agent_2_status": "completed",
+        "social_profiles_data": [
+            {
+                "platform": "github",
+                "original_url": "https://github.com/yyx990803",
+                "crawl_status": "failed_rate_limit",
+                "error_message": "Bị giới hạn API",
+                "raw_cleaned_data": null
+            },
+            {
+                "platform": "linkedin",
+                "original_url": "https://linkedin.com/in/not-exist-404-error",
+                "crawl_status": "failed_private_profile",
+                "error_message": "LinkedIn yêu cầu đăng nhập",
+                "raw_cleaned_data": null
+            }
+        ],
+        "summary_metrics": {
+            "total_links_received": 2,
+            "successful_crawls": 0,
+            "failed_crawls": 2
+        },
+        "execution_time_ms": 825
+    },
+    {
+        "candidate_id": "CV_IT_045",
+        "agent_2_status": "completed",
+        "social_profiles_data": [
+            {
+                "platform": "portfolio",
+                "original_url": "https://example-broken-link.com",
+                "crawl_status": "failed_network_error",
+                "error_message": "HTTPSConnectionPool(host='example-broken-link.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='example-broken-link.com', port=443): Failed to resolve 'example-broken-link.com' ([Errno 11001] getaddrinfo failed)\"))",
+                "raw_cleaned_data": null
+            }
+        ],
+        "summary_metrics": {
+            "total_links_received": 1,
+            "successful_crawls": 0,
+            "failed_crawls": 1
+        },
+        "execution_time_ms": 12
+    },
+    {
+        "candidate_id": "CV_IT_046",
+        "agent_2_status": "completed",
+        "social_profiles_data": [
+            {
+                "platform": "linkedin",
+                "original_url": "https://linkedin.com/in/nguyenvana123",
+                "crawl_status": "failed_private_profile",
+                "error_message": "LinkedIn yêu cầu đăng nhập",
+                "raw_cleaned_data": null
+            },
+            {
+                "platform": "github",
+                "original_url": "https://github.com/invalid_user_99999",
+                "crawl_status": "failed_rate_limit",
+                "error_message": "Bị giới hạn API",
+                "raw_cleaned_data": null
+            }
+        ],
+        "summary_metrics": {
+            "total_links_received": 2,
+            "successful_crawls": 0,
+            "failed_crawls": 2
+        },
+        "execution_time_ms": 883
+    },
+    {
+        "candidate_id": "CV_IT_047",
+        "agent_2_status": "completed",
+        "social_profiles_data": [
+            {
+                "platform": "github",
+                "original_url": "https://github.com/invalid_user_99999",
+                "crawl_status": "failed_rate_limit",
+                "error_message": "Bị giới hạn API",
+                "raw_cleaned_data": null
+            }
+        ],
+        "summary_metrics": {
+            "total_links_received": 1,
+            "successful_crawls": 0,
+            "failed_crawls": 1
+        },
+        "execution_time_ms": 948
+    },
+    {
+        "candidate_id": "CV_IT_048",
+        "agent_2_status": "completed",
+        "social_profiles_data": [
+            {
+                "platform": "linkedin",
+                "original_url": "https://linkedin.com/in/not-exist-404-error",
+                "crawl_status": "failed_private_profile",
+                "error_message": "LinkedIn yêu cầu đăng nhập",
+                "raw_cleaned_data": null
+            }
+        ],
+        "summary_metrics": {
+            "total_links_received": 1,
+            "successful_crawls": 0,
+            "failed_crawls": 1
+        },
+        "execution_time_ms": 0
+    },
+    {
+        "candidate_id": "CV_IT_049",
+        "agent_2_status": "completed",
+        "social_profiles_data": [
+            {
+                "platform": "portfolio",
+                "original_url": "https://github.blog",
+                "crawl_status": "success",
+                "error_message": null,
+                "raw_cleaned_data": {
+                    "website_content": "Home - The GitHub Blog Skip to content / Blog Try GitHub Copilot See what's new Search Developer skills GitHub for Beginners: Getting started with GitHub Pages Learn how to create a free website for any repository on GitHub Pages. AI & ML GitHub Copilot CLI for Beginners: Getting started with GitHub Copilot CLI GitHub for Beginners: Getting started with the GitHub Copilot CLI, a step-by-step tutorial. Company news GitHub Universe is back: We want you to take the stage Get inspired by five of the most memorable, magical, and quirky Universe sessions to date. AI & ML GitHub Copilot CLI combines model families for a second opinion Discover how Rubber Duck provides a different perspective to GitHub Copilot CLI. We do newsletters, too Discover tips, technical guides, and best practices in our biweekly newsletter just for devs. Your email address * Your email address Subscribe Yes please, I’d like GitHub and affiliates to use my information for personalized communications, targeted advertising and campaign effectiveness. See the GitHub Privacy Statement for more details. Subscribe Latest View all Company news GitHub availability report: March 2026 In March, we experienced four incidents that resulted in degraded performance across GitHub services. Architecture & optimization The uphill climb of making diff lines performant The path to better performance is often found in simplicity. Security Securing the open source supply chain across GitHub Recent attacks on open source focus on exfiltrating secrets; here are the prevention steps you can take today, plus a look at the security capabilities GitHub is working on. Popular All categories All categories AI & ML Company Developer skills Engineering Enterprise software News & insights Open Source Security Company news Updates to GitHub Copilot interaction data usage policy From April 24 onward, interaction data—specifically inputs, outputs, code snippets, and associated context—from Copilot Free, Pro, and Pro+ users will be used to train and improve our AI models unless they opt out. Company news Addressing GitHub’s recent availability issues GitHub recently experienced several availability incidents. We understand the impact these outages have on our customers and are sharing details on the stabilization work we’re prioritizing right now. AI & ML Spec-driven development with AI: Get started with a new open source toolkit Developers can use their AI tool of choice for spec-driven development with this open source toolkit. Changelog View all changes GitHub Code Quality: Improvements to standard findings in public preview April 14, 2026 Copilot data residency in US + EU and FedRAMP compliance now available April 13, 2026 Fix merge conflicts in three clicks with Copilot cloud agent April 13, 2026 Remote control CLI sessions on web and mobile in public preview April 13, 2026 View all changes Engineering More engineering articles Continuous AI for accessibility: How GitHub transforms feedback into inclusion AI a"
+                }
+            },
+            {
+                "platform": "linkedin",
+                "original_url": "https://www.linkedin.com/in/williamhgates",
+                "crawl_status": "failed_private_profile",
+                "error_message": "LinkedIn yêu cầu đăng nhập",
+                "raw_cleaned_data": null
+            }
+        ],
+        "summary_metrics": {
+            "total_links_received": 2,
+            "successful_crawls": 1,
+            "failed_crawls": 1
+        },
+        "execution_time_ms": 1098
+    },
+    {
+        "candidate_id": "CV_IT_050",
+        "agent_2_status": "completed",
+        "social_profiles_data": [
+            {
+                "platform": "github",
+                "original_url": "https://github.com",
+                "crawl_status": "failed_invalid_url",
+                "error_message": "Không trích xuất được username",
+                "raw_cleaned_data": null
+            },
+            {
+                "platform": "portfolio",
+                "original_url": "https://portfolio-nguyenvana.vercel.app",
+                "crawl_status": "failed_404",
+                "error_message": "HTTP 404 - Không tìm thấy trang",
+                "raw_cleaned_data": null
+            },
+            {
+                "platform": "linkedin",
+                "original_url": "https://linkedin.com/in/not-exist-404-error",
+                "crawl_status": "failed_private_profile",
+                "error_message": "LinkedIn yêu cầu đăng nhập",
+                "raw_cleaned_data": null
+            }
+        ],
+        "summary_metrics": {
+            "total_links_received": 3,
+            "successful_crawls": 0,
+            "failed_crawls": 3
+        },
+        "execution_time_ms": 734
+    }
+]

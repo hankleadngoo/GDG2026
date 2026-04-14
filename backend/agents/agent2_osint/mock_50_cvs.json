@@ -1,0 +1,668 @@
+[
+    {
+        "candidate_id": "CV_IT_001",
+        "extracted_links": [
+            {
+                "platform": "portfolio",
+                "url": "https://example-broken-link.com"
+            },
+            {
+                "platform": "github",
+                "url": "https://github.com/yyx990803"
+            }
+        ]
+    },
+    {
+        "candidate_id": "CV_IT_002",
+        "extracted_links": [
+            {
+                "platform": "github",
+                "url": "https://github.com/torvalds"
+            },
+            {
+                "platform": "linkedin",
+                "url": "https://linkedin.com/in/not-exist-404-error"
+            }
+        ]
+    },
+    {
+        "candidate_id": "CV_IT_003",
+        "extracted_links": [
+            {
+                "platform": "portfolio",
+                "url": "https://example-broken-link.com"
+            },
+            {
+                "platform": "github",
+                "url": "https://github.com/yyx990803"
+            },
+            {
+                "platform": "linkedin",
+                "url": "https://linkedin.com/in/nguyenvana123"
+            }
+        ]
+    },
+    {
+        "candidate_id": "CV_IT_004",
+        "extracted_links": [
+            {
+                "platform": "github",
+                "url": "https://github.com/invalid_user_99999"
+            }
+        ]
+    },
+    {
+        "candidate_id": "CV_IT_005",
+        "extracted_links": [
+            {
+                "platform": "linkedin",
+                "url": "https://linkedin.com/in/nguyenvana123"
+            },
+            {
+                "platform": "portfolio",
+                "url": "https://portfolio-nguyenvana.vercel.app"
+            },
+            {
+                "platform": "github",
+                "url": "https://github.com/karpathy"
+            }
+        ]
+    },
+    {
+        "candidate_id": "CV_IT_006",
+        "extracted_links": [
+            {
+                "platform": "linkedin",
+                "url": "https://linkedin.com/in/nguyenvana123"
+            },
+            {
+                "platform": "github",
+                "url": "https://github.com/yyx990803"
+            },
+            {
+                "platform": "portfolio",
+                "url": "https://example-broken-link.com"
+            }
+        ]
+    },
+    {
+        "candidate_id": "CV_IT_007",
+        "extracted_links": [
+            {
+                "platform": "linkedin",
+                "url": "https://www.linkedin.com/in/williamhgates"
+            },
+            {
+                "platform": "portfolio",
+                "url": "https://my-awesome-cv-error.com"
+            },
+            {
+                "platform": "github",
+                "url": "https://github.com/yyx990803"
+            }
+        ]
+    },
+    {
+        "candidate_id": "CV_IT_008",
+        "extracted_links": [
+            {
+                "platform": "portfolio",
+                "url": "https://github.blog"
+            }
+        ]
+    },
+    {
+        "candidate_id": "CV_IT_009",
+        "extracted_links": [
+            {
+                "platform": "github",
+                "url": "https://github.com/yyx990803"
+            }
+        ]
+    },
+    {
+        "candidate_id": "CV_IT_010",
+        "extracted_links": [
+            {
+                "platform": "linkedin",
+                "url": "https://linkedin.com/in/nguyenvana123"
+            },
+            {
+                "platform": "github",
+                "url": "https://github.com/invalid_user_99999"
+            }
+        ]
+    },
+    {
+        "candidate_id": "CV_IT_011",
+        "extracted_links": [
+            {
+                "platform": "linkedin",
+                "url": "https://linkedin.com/in/nguyenvana123"
+            },
+            {
+                "platform": "portfolio",
+                "url": "https://portfolio-nguyenvana.vercel.app"
+            }
+        ]
+    },
+    {
+        "candidate_id": "CV_IT_012",
+        "extracted_links": [
+            {
+                "platform": "portfolio",
+                "url": "https://portfolio-nguyenvana.vercel.app"
+            },
+            {
+                "platform": "github",
+                "url": "https://github.com/torvalds"
+            }
+        ]
+    },
+    {
+        "candidate_id": "CV_IT_013",
+        "extracted_links": [
+            {
+                "platform": "portfolio",
+                "url": "https://github.blog"
+            }
+        ]
+    },
+    {
+        "candidate_id": "CV_IT_014",
+        "extracted_links": [
+            {
+                "platform": "portfolio",
+                "url": "https://my-awesome-cv-error.com"
+            }
+        ]
+    },
+    {
+        "candidate_id": "CV_IT_015",
+        "extracted_links": [
+            {
+                "platform": "linkedin",
+                "url": "https://linkedin.com/in/not-exist-404-error"
+            },
+            {
+                "platform": "portfolio",
+                "url": "https://example-broken-link.com"
+            }
+        ]
+    },
+    {
+        "candidate_id": "CV_IT_016",
+        "extracted_links": [
+            {
+                "platform": "linkedin",
+                "url": "https://www.linkedin.com/in/williamhgates"
+            },
+            {
+                "platform": "portfolio",
+                "url": "https://portfolio-nguyenvana.vercel.app"
+            },
+            {
+                "platform": "github",
+                "url": "https://github.com/invalid_user_99999"
+            }
+        ]
+    },
+    {
+        "candidate_id": "CV_IT_017",
+        "extracted_links": [
+            {
+                "platform": "linkedin",
+                "url": "https://linkedin.com/in/not-exist-404-error"
+            },
+            {
+                "platform": "portfolio",
+                "url": "https://portfolio-nguyenvana.vercel.app"
+            },
+            {
+                "platform": "github",
+                "url": "https://github.com/invalid_user_99999"
+            }
+        ]
+    },
+    {
+        "candidate_id": "CV_IT_018",
+        "extracted_links": [
+            {
+                "platform": "linkedin",
+                "url": "https://linkedin.com/in/not-exist-404-error"
+            },
+            {
+                "platform": "github",
+                "url": "https://github.com/invalid_user_99999"
+            },
+            {
+                "platform": "portfolio",
+                "url": "https://portfolio-nguyenvana.vercel.app"
+            }
+        ]
+    },
+    {
+        "candidate_id": "CV_IT_019",
+        "extracted_links": [
+            {
+                "platform": "linkedin",
+                "url": "https://www.linkedin.com/in/williamhgates"
+            },
+            {
+                "platform": "portfolio",
+                "url": "https://my-awesome-cv-error.com"
+            },
+            {
+                "platform": "github",
+                "url": "https://github.com/karpathy"
+            }
+        ]
+    },
+    {
+        "candidate_id": "CV_IT_020",
+        "extracted_links": [
+            {
+                "platform": "linkedin",
+                "url": "https://www.linkedin.com/in/williamhgates"
+            },
+            {
+                "platform": "portfolio",
+                "url": "https://my-awesome-cv-error.com"
+            },
+            {
+                "platform": "github",
+                "url": "https://github.com/invalid_user_99999"
+            }
+        ]
+    },
+    {
+        "candidate_id": "CV_IT_021",
+        "extracted_links": [
+            {
+                "platform": "github",
+                "url": "https://github.com/torvalds"
+            },
+            {
+                "platform": "linkedin",
+                "url": "https://linkedin.com/in/nguyenvana123"
+            }
+        ]
+    },
+    {
+        "candidate_id": "CV_IT_022",
+        "extracted_links": [
+            {
+                "platform": "portfolio",
+                "url": "https://my-awesome-cv-error.com"
+            },
+            {
+                "platform": "github",
+                "url": "https://github.com"
+            }
+        ]
+    },
+    {
+        "candidate_id": "CV_IT_023",
+        "extracted_links": [
+            {
+                "platform": "linkedin",
+                "url": "https://www.linkedin.com/in/williamhgates"
+            }
+        ]
+    },
+    {
+        "candidate_id": "CV_IT_024",
+        "extracted_links": [
+            {
+                "platform": "portfolio",
+                "url": "https://example-broken-link.com"
+            }
+        ]
+    },
+    {
+        "candidate_id": "CV_IT_025",
+        "extracted_links": [
+            {
+                "platform": "portfolio",
+                "url": "https://portfolio-nguyenvana.vercel.app"
+            },
+            {
+                "platform": "linkedin",
+                "url": "https://www.linkedin.com/in/williamhgates"
+            },
+            {
+                "platform": "github",
+                "url": "https://github.com"
+            }
+        ]
+    },
+    {
+        "candidate_id": "CV_IT_026",
+        "extracted_links": [
+            {
+                "platform": "portfolio",
+                "url": "https://example-broken-link.com"
+            },
+            {
+                "platform": "linkedin",
+                "url": "https://linkedin.com/in/nguyenvana123"
+            }
+        ]
+    },
+    {
+        "candidate_id": "CV_IT_027",
+        "extracted_links": [
+            {
+                "platform": "linkedin",
+                "url": "https://linkedin.com/in/nguyenvana123"
+            },
+            {
+                "platform": "portfolio",
+                "url": "https://example-broken-link.com"
+            }
+        ]
+    },
+    {
+        "candidate_id": "CV_IT_028",
+        "extracted_links": [
+            {
+                "platform": "github",
+                "url": "https://github.com/karpathy"
+            },
+            {
+                "platform": "portfolio",
+                "url": "https://portfolio-nguyenvana.vercel.app"
+            }
+        ]
+    },
+    {
+        "candidate_id": "CV_IT_029",
+        "extracted_links": [
+            {
+                "platform": "portfolio",
+                "url": "https://example-broken-link.com"
+            },
+            {
+                "platform": "github",
+                "url": "https://github.com/invalid_user_99999"
+            }
+        ]
+    },
+    {
+        "candidate_id": "CV_IT_030",
+        "extracted_links": [
+            {
+                "platform": "linkedin",
+                "url": "https://linkedin.com/in/not-exist-404-error"
+            },
+            {
+                "platform": "portfolio",
+                "url": "https://example-broken-link.com"
+            },
+            {
+                "platform": "github",
+                "url": "https://github.com/karpathy"
+            }
+        ]
+    },
+    {
+        "candidate_id": "CV_IT_031",
+        "extracted_links": [
+            {
+                "platform": "linkedin",
+                "url": "https://www.linkedin.com/in/williamhgates"
+            },
+            {
+                "platform": "portfolio",
+                "url": "https://portfolio-nguyenvana.vercel.app"
+            },
+            {
+                "platform": "github",
+                "url": "https://github.com/yyx990803"
+            }
+        ]
+    },
+    {
+        "candidate_id": "CV_IT_032",
+        "extracted_links": [
+            {
+                "platform": "linkedin",
+                "url": "https://linkedin.com/in/nguyenvana123"
+            }
+        ]
+    },
+    {
+        "candidate_id": "CV_IT_033",
+        "extracted_links": [
+            {
+                "platform": "github",
+                "url": "https://github.com/karpathy"
+            },
+            {
+                "platform": "linkedin",
+                "url": "https://linkedin.com/in/nguyenvana123"
+            },
+            {
+                "platform": "portfolio",
+                "url": "https://github.blog"
+            }
+        ]
+    },
+    {
+        "candidate_id": "CV_IT_034",
+        "extracted_links": [
+            {
+                "platform": "linkedin",
+                "url": "https://linkedin.com/in/not-exist-404-error"
+            },
+            {
+                "platform": "portfolio",
+                "url": "https://example-broken-link.com"
+            }
+        ]
+    },
+    {
+        "candidate_id": "CV_IT_035",
+        "extracted_links": [
+            {
+                "platform": "github",
+                "url": "https://github.com/invalid_user_99999"
+            },
+            {
+                "platform": "linkedin",
+                "url": "https://linkedin.com/in/nguyenvana123"
+            },
+            {
+                "platform": "portfolio",
+                "url": "https://github.blog"
+            }
+        ]
+    },
+    {
+        "candidate_id": "CV_IT_036",
+        "extracted_links": [
+            {
+                "platform": "github",
+                "url": "https://github.com/invalid_user_99999"
+            },
+            {
+                "platform": "portfolio",
+                "url": "https://github.blog"
+            }
+        ]
+    },
+    {
+        "candidate_id": "CV_IT_037",
+        "extracted_links": [
+            {
+                "platform": "portfolio",
+                "url": "https://github.blog"
+            }
+        ]
+    },
+    {
+        "candidate_id": "CV_IT_038",
+        "extracted_links": [
+            {
+                "platform": "linkedin",
+                "url": "https://linkedin.com/in/nguyenvana123"
+            },
+            {
+                "platform": "portfolio",
+                "url": "https://github.blog"
+            },
+            {
+                "platform": "github",
+                "url": "https://github.com/torvalds"
+            }
+        ]
+    },
+    {
+        "candidate_id": "CV_IT_039",
+        "extracted_links": [
+            {
+                "platform": "linkedin",
+                "url": "https://linkedin.com/in/nguyenvana123"
+            }
+        ]
+    },
+    {
+        "candidate_id": "CV_IT_040",
+        "extracted_links": [
+            {
+                "platform": "linkedin",
+                "url": "https://linkedin.com/in/nguyenvana123"
+            }
+        ]
+    },
+    {
+        "candidate_id": "CV_IT_041",
+        "extracted_links": [
+            {
+                "platform": "github",
+                "url": "https://github.com"
+            },
+            {
+                "platform": "portfolio",
+                "url": "https://my-awesome-cv-error.com"
+            },
+            {
+                "platform": "linkedin",
+                "url": "https://www.linkedin.com/in/williamhgates"
+            }
+        ]
+    },
+    {
+        "candidate_id": "CV_IT_042",
+        "extracted_links": [
+            {
+                "platform": "portfolio",
+                "url": "https://portfolio-nguyenvana.vercel.app"
+            },
+            {
+                "platform": "linkedin",
+                "url": "https://linkedin.com/in/not-exist-404-error"
+            },
+            {
+                "platform": "github",
+                "url": "https://github.com"
+            }
+        ]
+    },
+    {
+        "candidate_id": "CV_IT_043",
+        "extracted_links": [
+            {
+                "platform": "portfolio",
+                "url": "https://my-awesome-cv-error.com"
+            },
+            {
+                "platform": "linkedin",
+                "url": "https://linkedin.com/in/not-exist-404-error"
+            }
+        ]
+    },
+    {
+        "candidate_id": "CV_IT_044",
+        "extracted_links": [
+            {
+                "platform": "github",
+                "url": "https://github.com/yyx990803"
+            },
+            {
+                "platform": "linkedin",
+                "url": "https://linkedin.com/in/not-exist-404-error"
+            }
+        ]
+    },
+    {
+        "candidate_id": "CV_IT_045",
+        "extracted_links": [
+            {
+                "platform": "portfolio",
+                "url": "https://example-broken-link.com"
+            }
+        ]
+    },
+    {
+        "candidate_id": "CV_IT_046",
+        "extracted_links": [
+            {
+                "platform": "linkedin",
+                "url": "https://linkedin.com/in/nguyenvana123"
+            },
+            {
+                "platform": "github",
+                "url": "https://github.com/invalid_user_99999"
+            }
+        ]
+    },
+    {
+        "candidate_id": "CV_IT_047",
+        "extracted_links": [
+            {
+                "platform": "github",
+                "url": "https://github.com/invalid_user_99999"
+            }
+        ]
+    },
+    {
+        "candidate_id": "CV_IT_048",
+        "extracted_links": [
+            {
+                "platform": "linkedin",
+                "url": "https://linkedin.com/in/not-exist-404-error"
+            }
+        ]
+    },
+    {
+        "candidate_id": "CV_IT_049",
+        "extracted_links": [
+            {
+                "platform": "portfolio",
+                "url": "https://github.blog"
+            },
+            {
+                "platform": "linkedin",
+                "url": "https://www.linkedin.com/in/williamhgates"
+            }
+        ]
+    },
+    {
+        "candidate_id": "CV_IT_050",
+        "extracted_links": [
+            {
+                "platform": "github",
+                "url": "https://github.com"
+            },
+            {
+                "platform": "portfolio",
+                "url": "https://portfolio-nguyenvana.vercel.app"
+            },
+            {
+                "platform": "linkedin",
+                "url": "https://linkedin.com/in/not-exist-404-error"
+            }
+        ]
+    }
+]
