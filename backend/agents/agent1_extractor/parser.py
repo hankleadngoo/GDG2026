@@ -1,6 +1,6 @@
 """
-Agent 1 — CV Extractor
-======================
+parser.py — Agent 1: CV Extractor
+=================================
 Entry point: parse_cv(source, job_description=None)
 
 Supported input types
@@ -11,7 +11,7 @@ Supported input types
 
 Output
 ------
-A dict matching the CVExtraction Pydantic schema defined in schema.py.
+A dict matching the CVExtraction dataclass schema defined in schema.py.
 This dict is the contract consumed by Agent 2 (OSINT) and Agent 3 (Verifier).
 """
 
@@ -26,14 +26,13 @@ from typing import Any
 
 from dotenv import load_dotenv
 
+# ── Bootstrap ─────────────────────────────────────────────────────────────────
+
 load_dotenv()
 
 logger = logging.getLogger(__name__)
 
-# ---------------------------------------------------------------------------
-# Internal helpers — text extraction
-# ---------------------------------------------------------------------------
-
+# ── Internal helpers: Text extraction ─────────────────────────────────────────
 
 def _extract_pdf_llamaparse(pdf_path: str) -> tuple[str, str]:
     """
@@ -49,15 +48,16 @@ def _extract_pdf_llamaparse(pdf_path: str) -> tuple[str, str]:
 
     try:
         parser = llama_parse.LlamaParse(
-    api_key=api_key,
-    result_type="markdown",
-    system_prompt="Extract all text and preserve all hyperlinks, especially LinkedIn and GitHub.", 
-    verbose=False,
-)
+            api_key=api_key,
+            result_type="markdown",
+            system_prompt="Extract all text and preserve all hyperlinks, especially LinkedIn and GitHub.", 
+            verbose=False,
+        )
         documents = parser.load_data(pdf_path)
         text = "\n\n".join(doc.text for doc in documents)
         if text.strip():
             return text, "llamaparse"
+        
         # LlamaParse returned empty — try fallback
         logger.warning("LlamaParse returned empty text for %s; falling back to PyMuPDF.", pdf_path)
     except Exception as exc:
@@ -67,6 +67,7 @@ def _extract_pdf_llamaparse(pdf_path: str) -> tuple[str, str]:
 
 
 def _extract_pdf_pymupdf(pdf_path: str) -> tuple[str, str]:
+    """Fallback PDF extraction using local PyMuPDF."""
     try:
         import fitz  # PyMuPDF
         doc = fitz.open(pdf_path)
@@ -99,6 +100,8 @@ def _extract_pdf_pymupdf(pdf_path: str) -> tuple[str, str]:
         return final_content, "pymupdf_enhanced"
     except Exception as e:
         return str(e), "error"
+
+
 def _extract_docx(docx_path: str) -> tuple[str, str]:
     """Extract text from a DOCX file using python-docx."""
     try:
@@ -143,10 +146,7 @@ def extract_text(source: str) -> tuple[str, str, str]:
     return source, "plaintext", "plaintext"
 
 
-# ---------------------------------------------------------------------------
-# Internal helper — Gemini call
-# ---------------------------------------------------------------------------
-
+# ── Internal helper: Gemini call ──────────────────────────────────────────────
 
 def _call_gemini(system_prompt: str, user_prompt: str, model: str = "gemini-2.5-flash") -> str:
     """Call Gemini and return the raw response string."""
@@ -171,10 +171,7 @@ def _call_gemini(system_prompt: str, user_prompt: str, model: str = "gemini-2.5-
     return response.text
 
 
-# ---------------------------------------------------------------------------
-# Public API
-# ---------------------------------------------------------------------------
-
+# ── Public API ────────────────────────────────────────────────────────────────
 
 def parse_cv(
     source: str,
@@ -196,12 +193,9 @@ def parse_cv(
         ValueError:       If Gemini returns malformed JSON after a retry.
         EnvironmentError: If required API keys are missing.
     """
-    from backend.agents.agent1_extractor.prompt import (
-        SYSTEM_PROMPT,
-        build_retry_prompt,
-        build_user_prompt,
-    )
-    from backend.agents.agent1_extractor.schema import CVExtraction
+    # Import theo cấu trúc module nội bộ
+    from .prompt import SYSTEM_PROMPT, build_retry_prompt, build_user_prompt
+    from .schema import CVExtraction
 
     warnings: list[str] = []
 
@@ -248,19 +242,18 @@ def parse_cv(
         "warnings": warnings,
     }
 
-    # ---- Step 5: validate with Pydantic (catches type errors / missing fields) ----
+    # ---- Step 5: validate with Dataclass (thay cho Pydantic) -------------
     try:
-        cv_obj = CVExtraction.model_validate(extracted_dict)
+        cv_obj = CVExtraction.from_dict(extracted_dict)
     except Exception as validation_err:
-        # Pydantic validation failed — this usually means Gemini hallucinated a wrong type.
-        # Log the issue, attach a warning, and return the raw dict so the pipeline can continue.
-        logger.error("Pydantic validation failed: %s", validation_err)
+        # Xảy ra khi mô hình sinh cấu trúc bị sai sót trầm trọng
+        logger.error("Schema validation/mapping failed: %s", validation_err)
         extracted_dict["metadata"]["warnings"].append(
-            f"Schema validation warning: {validation_err}. Output may contain type mismatches."
+            f"Schema mapping warning: {validation_err}. Output may contain type mismatches."
         )
         return extracted_dict
 
-    result = cv_obj.model_dump()
+    result = cv_obj.to_dict()
 
     # ---- Step 6: attach convenience views for downstream agents ----------
     result["_osint_targets"] = cv_obj.osint_targets()
@@ -269,9 +262,7 @@ def parse_cv(
     return result
 
 
-# ---------------------------------------------------------------------------
-# CLI convenience — python -m backend.agents.agent1_extractor.parser <path>
-# ---------------------------------------------------------------------------
+# ── CLI convenience ───────────────────────────────────────────────────────────
 
 if __name__ == "__main__":
     import sys

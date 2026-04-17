@@ -1,25 +1,14 @@
 """
-Prompts for Agent 1 — CV Extractor.
+prompt.py — Prompts for Agent 1 (CV Extractor).
 
 Gemini is called with:
   - system_instruction = SYSTEM_PROMPT  (sets the role and rules)
   - user message       = build_user_prompt(raw_text, job_description)
-
-The model is configured with response_mime_type="application/json" so the
-response is guaranteed to be valid JSON matching the CVExtraction schema.
 """
 
 from __future__ import annotations
 
-import json
-
-from backend.agents.agent1_extractor.schema import CVExtraction
-
-# ---------------------------------------------------------------------------
-# System prompt — injected once per Gemini session / generate_content call
-# ---------------------------------------------------------------------------
-
-# backend/agents/agent1_extractor/prompt.py
+# ── System Prompt ─────────────────────────────────────────────────────────────
 
 SYSTEM_PROMPT = """You are a precise CV / resume information extractor.
 
@@ -41,81 +30,129 @@ Your job is to read a CV and return a single JSON object that follows the schema
    - tools: software tools, platforms (e.g., Git, Docker, Hugging Face).
    - other: soft skills or categories not fitting above.
 5. If a URL appears in multiple places, include it only once in the most specific field.
-6. Return ONLY valid JSON. No markdown fences, no preamble, no explanation.
-"""
+6. Return ONLY valid JSON. No preamble, no explanation, no markdown formatting."""
 
-# Các phần còn lại (build_user_prompt, build_retry_prompt) giữ nguyên cấu trúc cũ của bạn 
-# vì chúng đã truyền raw_cv_text (đã bao gồm phần Metadata link mà chúng ta đã sửa ở parser.py).
+# ── JSON Schema String ────────────────────────────────────────────────────────
 
-# ---------------------------------------------------------------------------
-# JSON schema embedded in the user prompt
-# ---------------------------------------------------------------------------
+_SCHEMA_JSON = '''{
+  "candidate": {
+    "full_name": "string",
+    "email": "string | null",
+    "phone": "string | null",
+    "location": "string | null",
+    "summary": "string | null"
+  },
+  "metadata": {
+    "source_file": "string",
+    "parse_method": "string",
+    "extraction_model": "string",
+    "extracted_at": "string",
+    "warnings": ["string"]
+  },
+  "social_links": {
+    "linkedin": "string | null",
+    "github": "string | null",
+    "facebook": "string | null",
+    "portfolio": "string | null",
+    "other": ["string"]
+  },
+  "education": [
+    {
+      "institution": "string",
+      "degree": "string | null",
+      "major": "string | null",
+      "gpa": "string | null",
+      "start_year": "integer | null",
+      "end_year": "integer | null"
+    }
+  ],
+  "work_experience": [
+    {
+      "company": "string",
+      "role": "string",
+      "start_date": "string | null",
+      "end_date": "string | null",
+      "is_current": "boolean",
+      "responsibilities": ["string"],
+      "company_url": "string | null"
+    }
+  ],
+  "projects": [
+    {
+      "name": "string",
+      "description": "string | null",
+      "tech_stack": ["string"],
+      "links": {
+        "github": "string | null",
+        "demo": "string | null",
+        "other": ["string"]
+      },
+      "role": "string | null"
+    }
+  ],
+  "skills": {
+    "languages": ["string"],
+    "frameworks": ["string"],
+    "tools": ["string"],
+    "other": ["string"]
+  },
+  "certifications": [
+    {
+      "name": "string",
+      "issuer": "string | null",
+      "year": "integer | null",
+      "url": "string | null"
+    }
+  ],
+  "languages_spoken": [
+    {
+      "language": "string",
+      "proficiency": "string | null"
+    }
+  ]
+}'''
 
-_SCHEMA_JSON = json.dumps(CVExtraction.model_json_schema(), indent=2, ensure_ascii=False)
-
-
-# ---------------------------------------------------------------------------
-# User prompt builder
-# ---------------------------------------------------------------------------
-
+# ── Prompt Builders ───────────────────────────────────────────────────────────
 
 def build_user_prompt(raw_cv_text: str, job_description: str | None = None) -> str:
     """
     Build the user-turn prompt that is sent to Gemini together with the system prompt.
-
-    Args:
-        raw_cv_text:      Plain text extracted from the CV (by LlamaParse / docx / raw).
-        job_description:  Optional job description text. When provided, tells the model
-                          to flag skills and experience particularly relevant to the role
-                          inside the existing fields (no extra keys are added).
     """
     jd_section = ""
     if job_description and job_description.strip():
-        jd_section = f"""
----
-JOB DESCRIPTION (for context only — use it to understand relevance, NOT to add information not in the CV):
-{job_description.strip()}
----
-"""
+        jd_section = (
+            "\n---\n"
+            "JOB DESCRIPTION (for context only — use it to understand relevance, NOT to add information not in the CV):\n"
+            f"{job_description.strip()}\n"
+            "---\n"
+        )
 
-    return f"""Extract all information from the CV below and return it as a JSON object.
-
-The JSON must strictly match this schema:
-```json
-{_SCHEMA_JSON}
-```
-{jd_section}
----
-CV TEXT:
-{raw_cv_text.strip()}
----
-
-Return ONLY the JSON object. No markdown fences, no explanation, no preamble."""
-
-
-# ---------------------------------------------------------------------------
-# Retry prompt — used when the first response fails JSON validation
-# ---------------------------------------------------------------------------
+    return (
+        "Extract all information from the CV below and return it as a JSON object.\n\n"
+        "The JSON must strictly match this schema:\n"
+        f"{_SCHEMA_JSON}\n"
+        f"{jd_section}\n"
+        "---\n"
+        "CV TEXT:\n"
+        f"{raw_cv_text.strip()}\n"
+        "---\n\n"
+        "Return ONLY the JSON object. No explanation, no preamble."
+    )
 
 
 def build_retry_prompt(raw_cv_text: str, previous_response: str, error_msg: str) -> str:
     """
-    Called by parser.py when Gemini returns malformed JSON on the first attempt.
+    Called by the parser when Gemini returns malformed JSON on the first attempt.
     Feeds the error back to the model for a self-correction pass.
     """
-    return f"""Your previous response could not be parsed as valid JSON.
-
-Error: {error_msg}
-
-Your previous (broken) response:
-{previous_response[:2000]}
-
-Please return a corrected, valid JSON object matching the schema below. No markdown, no explanation.
-
-Schema:
-```json
-{_SCHEMA_JSON}
-```
-
-CV TEXT (same as before):
-{raw_cv_text.strip()}"""
+    return (
+        "Your previous response could not be parsed as valid JSON.\n\n"
+        f"Error: {error_msg}\n\n"
+        "Your previous (broken) response:\n"
+        f"{previous_response[:2000]}\n\n"
+        "Please return a corrected, valid JSON object matching the schema below. No explanation.\n\n"
+        "Schema:\n"
+        f"{_SCHEMA_JSON}\n\n"
+        "CV TEXT (same as before):\n"
+        f"{raw_cv_text.strip()}"
+    )

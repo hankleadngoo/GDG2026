@@ -79,5 +79,3 @@ class CandidatePayload:
             skills=data.get("skills", {"core": [], "tools": []}),
             education=data.get("education", {"level": "Unknown", "major": "Unknown"}),
         )
-
-
