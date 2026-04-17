@@ -1,10 +1,14 @@
 import requests
 import re
 from bs4 import BeautifulSoup
-from schema import (
+
+# Chỉ đường dẫn rõ ràng vào schema
+from agents.agent2_osint.schema import (
     GithubRichData, GithubProfileInfo, GithubMetrics, 
     GithubTechStack, GithubRepo
 )
+
+# ... (Phần code bên dưới giữ nguyên) ...
 
 def crawl_github(url):
     """Trích xuất dữ liệu CHUYÊN SÂU từ GitHub Profile bằng API."""

@@ -1,0 +1,63 @@
+{
+    "candidate_id": "CV_Pham_Tien_Dung_DSAI.pdf",
+    "agent_2_status": "completed",
+    "social_profiles_data": [
+        {
+            "platform": "github",
+            "original_url": "https://github.com/Jun1801",
+            "crawl_status": "success",
+            "error_message": null,
+            "raw_cleaned_data": {
+                "profile_info": {
+                    "bio": null,
+                    "company": null,
+                    "location": null,
+                    "account_created_at": "2024-01-19T15:17:10Z"
+                },
+                "metrics": {
+                    "followers": 3,
+                    "public_repos": 21,
+                    "total_stars_received": 0
+                },
+                "tech_stack_analysis": {
+                    "primary_languages": [
+                        "Python",
+                        "Jupyter Notebook",
+                        "Java",
+                        "C++"
+                    ],
+                    "last_active": "2026-03-09T08:24:54Z"
+                },
+                "top_highlighted_repos": [
+                    {
+                        "name": "mbti-test",
+                        "description": null,
+                        "primary_language": "Python",
+                        "stars": 0,
+                        "url": "https://github.com/Jun1801/mbti-test"
+                    },
+                    {
+                        "name": "LLM-Semantic-Cache-in-Access-Control",
+                        "description": null,
+                        "primary_language": "Jupyter Notebook",
+                        "stars": 0,
+                        "url": "https://github.com/Jun1801/LLM-Semantic-Cache-in-Access-Control"
+                    },
+                    {
+                        "name": "CoDraft-Bench",
+                        "description": null,
+                        "primary_language": "Python",
+                        "stars": 0,
+                        "url": "https://github.com/Jun1801/CoDraft-Bench"
+                    }
+                ]
+            }
+        }
+    ],
+    "summary_metrics": {
+        "total_links_received": 1,
+        "successful_crawls": 1,
+        "failed_crawls": 0
+    },
+    "execution_time_ms": 2824
+}

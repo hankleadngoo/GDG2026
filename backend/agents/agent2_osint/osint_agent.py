@@ -1,6 +1,9 @@
 import time
-from crawler import crawl_github, crawl_portfolio, crawl_linkedin
-from schema import Agent2Output, SocialProfileData, SummaryMetrics
+# Thay vì import trực tiếp, ta chỉ đường dẫn từ thư mục agents vào
+from agents.agent2_osint.crawler import crawl_github, crawl_portfolio, crawl_linkedin
+from agents.agent2_osint.schema import Agent2Output, SocialProfileData, SummaryMetrics
+
+# ... (Phần code bên dưới giữ nguyên) ...
 
 def run_agent_2(agent_1_output):
     """Bộ não điều phối chính của Agent 2"""

@@ -1,0 +1,304 @@
+{
+  "demo_samples": [
+    {
+      "file": "0008a18a-cd7c-4513-94c8-c60ef999db5c.pdf",
+      "status": "error",
+      "error": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+    },
+    {
+      "file": "00604f0e-91d3-4e60-af9e-4dfef8d74f24.pdf",
+      "status": "error",
+      "error": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+    },
+    {
+      "file": "00b96fac-ec35-4653-bc8c-62f563f1a3c8.pdf",
+      "status": "error",
+      "error": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+    },
+    {
+      "file": "021566a3-4dba-4884-94e3-0798201db9d8.pdf",
+      "status": "ok",
+      "result": {
+        "candidate": {
+          "full_name": "Nguyễn Lương Đình Nghĩa",
+          "email": null,
+          "phone": null,
+          "location": "Quận 8, TP Hồ Chí Minh",
+          "summary": "Tôi mong muốn trở thành một chuyên gia Marketing sáng tạo và có chiến lược, đóng góp vào sự phát triển bền vững của thương hiệu thông qua các chiến dịch tiếp thị hiệu quả. Với kiến thức về marketing kỹ thuật số, kỹ năng phân tích dữ liệu, tôi hy vọng sẽ tạo ra những giá trị đột phá, giúp công ty mở rộng thị phần và nâng cao trải nghiệm khách hàng. Mục tiêu dài hạn của tôi là phát triển lên vị trí quản lý marketing, góp phần xây dựng chiến lược tổng thể cho doanh nghiệp."
+        },
+        "social_links": {
+          "linkedin": null,
+          "github": null,
+          "facebook": null,
+          "portfolio": null,
+          "other": []
+        },
+        "education": [
+          {
+            "institution": "ĐẠI HỌC THỦY LỢI",
+            "degree": null,
+            "major": "QUẢN TRỊ MARKETING",
+            "gpa": "Tốt nghiệp loại Khá",
+            "start_year": 2021,
+            "end_year": 2024
+          }
+        ],
+        "work_experience": [
+          {
+            "company": "OPPO",
+            "role": "NHÂN VIÊN KINH DOANH",
+            "start_date": "20/02/2024",
+            "end_date": "31/8/2024",
+            "is_current": false,
+            "responsibilities": [
+              "Tư vấn bán hàng, hỗ trợ, chăm sóc khách hàng về các sản phẩm của OPPO tại của hàng OPPO Brand shop Royal City.",
+              "Tổ chức các sự kiện, mini game tại shop OPPO quảng bá sản phẩm thu hút khách hàng.",
+              "Phát triển thị trường và mở rộng mạng lưới phân phối các sản phẩm OPPO trong khu vực quản lý."
+            ],
+            "company_url": null
+          },
+          {
+            "company": "NHÀ HÀNG MEIWEI ROYAL",
+            "role": "PHỤC VỤ",
+            "start_date": "06/2023",
+            "end_date": "10/2023",
+            "is_current": false,
+            "responsibilities": [
+              "Đón tiếp và hướng dẫn khách hàng vào bàn, đảm bảo thái độ phục vụ chuyên nghiệp và thân thiện.",
+              "Tiếp nhận và ghi nhận các yêu cầu đặt món của khách hàng một cách chính xác, đồng thời giải thích về các món ăn và đồ uống trong thực đơn.",
+              "Xử lý các tình huống phát sinh trong quá trình phục vụ, giải quyết khiếu nại của khách hàng một cách nhanh chóng và hiệu quả."
+            ],
+            "company_url": null
+          },
+          {
+            "company": "HÀ NỘI STARLAND",
+            "role": "NHÂN VIÊN TELESALE",
+            "start_date": "04/2022",
+            "end_date": "7/2022",
+            "is_current": false,
+            "responsibilities": [
+              "Gọi điện thoại tư vấn, giới thiệu sản phẩm, dịch vụ cho khách hàng tiềm năng dựa trên danh sách data có sẵn.",
+              "Đạt chỉ tiêu doanh số hàng tháng, trung bình vượt 120% KPI đề ra.",
+              "Xây dựng và duy trì mối quan hệ tốt với khách hàng, thường xuyên liên lạc để cập nhật nhu cầu và giải đáp thắc mắc của khách hàng."
+            ],
+            "company_url": null
+          }
+        ],
+        "projects": [],
+        "skills": {
+          "languages": [],
+          "frameworks": [],
+          "tools": [
+            "Kỹ năng tin học văn phòng"
+          ],
+          "other": [
+            "Kỹ năng bán hàng",
+            "Kỹ năng giao tiếp và đàm phán",
+            "Kỹ năng làm việc nhóm và độc lập"
+          ]
+        },
+        "certifications": [],
+        "languages_spoken": [],
+        "metadata": {
+          "source_file": "021566a3-4dba-4884-94e3-0798201db9d8.pdf",
+          "parse_method": "llamaparse",
+          "extraction_model": "gemini-2.5-flash",
+          "extracted_at": "2026-04-11T16:48:42.752010+00:00",
+          "warnings": []
+        },
+        "_osint_targets": {
+          "candidate_name": "Nguyễn Lương Đình Nghĩa",
+          "social_links": {
+            "linkedin": null,
+            "github": null,
+            "facebook": null,
+            "portfolio": null,
+            "other": []
+          },
+          "project_links": [],
+          "employers": []
+        },
+        "_all_urls": []
+      }
+    },
+    {
+      "file": "02c89c22-ddfa-4018-a0e6-e7f4dacd6fab.pdf",
+      "status": "ok",
+      "result": {
+        "candidate": {
+          "full_name": "Viet Nguyen",
+          "email": null,
+          "phone": null,
+          "location": "Ho Chi Minh City, Viet Nam",
+          "summary": "A dedicated Product Manager with more than 6 years of experience in the tech industry and a passion for delivering successful product development, especially in SaaS and B2B products. Demonstrated expertise in leading cross-functional teams and launching successful products, using data analysis and user research to inform product decisions and drive success"
+        },
+        "social_links": {
+          "linkedin": null,
+          "github": null,
+          "facebook": null,
+          "portfolio": null,
+          "other": []
+        },
+        "education": [
+          {
+            "institution": "Ton Duc Thang University",
+            "degree": "Business Administration",
+            "major": null,
+            "gpa": null,
+            "start_year": 2012,
+            "end_year": 2016
+          }
+        ],
+        "work_experience": [
+          {
+            "company": "Diag",
+            "role": "Product Manager",
+            "start_date": "Sep 2021",
+            "end_date": "Oct 2023",
+            "is_current": false,
+            "responsibilities": [
+              "Led the development and launch of web and mobile apps for doctors and B2B clinics, driving digital adoption of 70% active customers, with a retention rate of 43%",
+              "Analyzed user feedback (surveys, bi-weekly interviews) and stakeholder input (sales, executives) to develop solutions that meet customer needs",
+              "Partnered with the designer to conduct user research and iterate on prototypes, resulting in an improvement of CSAT",
+              "Leveraged Mixpanel to build a data-driven system to monitor key metrics, optimizing user engagement and behavior for improved product performance",
+              "Bridged the gap between technical and business aspects, managing project lifecycles from defining success metrics with stakeholders to documenting requirements and contributing to design specifications",
+              "Collaborated with the Head of Product to build the product roadmap and execute product strategy that aligns with company business goals"
+            ],
+            "company_url": null
+          },
+          {
+            "company": "FireGroup",
+            "role": "Senior Product Owner",
+            "start_date": "Jun 2020",
+            "end_date": "Jul 2021",
+            "is_current": false,
+            "responsibilities": [
+              "Led a 8-person team to develop a Saas application published in Shopify, optimizing hundreds of e-commerce sites to achieve high performance based on Google metrics.",
+              "Acquired 700 monthly active customers within 4 months after launch, generating $14,000 monthly revenue through subscription and in-app purchase.",
+              "Crafted an effective pricing strategy to optimize revenue, coupled with a user acquisition strategy to maximize reach and conversion",
+              "Collaborated with developers to explore technical solutions, applying best practices learned from Google documentation to enhance website speed.",
+              "Led product roadmap sessions with the Director, ensuring alignment with market needs.",
+              "Maintained regular communication with customers and conducted market research to identify opportunities for product improvement."
+            ],
+            "company_url": null
+          },
+          {
+            "company": "MoMo",
+            "role": "Product Owner",
+            "start_date": "Jan 2019",
+            "end_date": "Jun 2020",
+            "is_current": false,
+            "responsibilities": [
+              "Played a key role in the Finance Product Team, developing and bringing insurance and lending products to market",
+              "Partnered with the Engineering team to understand technical documents and evaluate trade-offs, ensuring informed decision-making",
+              "Collaborate with the Designer to define user flows and test the prototypes to deliver a great user experience",
+              "Define events and build reports in Facebook Analytics.",
+              "Ran A/B testing with Data Engineers to optimize features.",
+              "Conducted user research and user interviews to uncover valuable insights to inform product decisions."
+            ],
+            "company_url": null
+          },
+          {
+            "company": "Larion",
+            "role": "Product Owner",
+            "start_date": "Jul 2018",
+            "end_date": "Jun 2019",
+            "is_current": false,
+            "responsibilities": [
+              "Collaborated with developers to build a simple search engine",
+              "Defined specs, testing feature",
+              "Work with a product team to develop a product roadmap",
+              "Prioritize features and functionality based on user feedback"
+            ],
+            "company_url": null
+          },
+          {
+            "company": "Officience",
+            "role": "Business Analyst",
+            "start_date": "Jun 2017",
+            "end_date": "Jul 2018",
+            "is_current": false,
+            "responsibilities": [
+              "Interviewed stakeholders to collect requirement",
+              "Build and maintain product documentation",
+              "Work closely with designers, developers, and other stakeholders to ensure the product meets user needs and business goals"
+            ],
+            "company_url": null
+          }
+        ],
+        "projects": [],
+        "skills": {
+          "languages": [],
+          "frameworks": [],
+          "tools": [
+            "Mixpanel",
+            "Shopify",
+            "Google metrics",
+            "Facebook Analytics",
+            "Google documentation"
+          ],
+          "other": [
+            "Customer Discovery",
+            "Stakeholder management",
+            "Product Roadmap",
+            "Prioritization",
+            "Product Analytics",
+            "Running Agile Team",
+            "Growth",
+            "Leadership",
+            "User research",
+            "A/B testing",
+            "User interviews",
+            "Product documentation"
+          ]
+        },
+        "certifications": [
+          {
+            "name": "Mastering Product Management",
+            "issuer": "Reforge",
+            "year": 2023,
+            "url": null
+          },
+          {
+            "name": "Retention & Engagement",
+            "issuer": "Reforge",
+            "year": 2023,
+            "url": null
+          }
+        ],
+        "languages_spoken": [
+          {
+            "language": "English",
+            "proficiency": "Advanced"
+          },
+          {
+            "language": "Vietnamese",
+            "proficiency": "Native"
+          }
+        ],
+        "metadata": {
+          "source_file": "02c89c22-ddfa-4018-a0e6-e7f4dacd6fab.pdf",
+          "parse_method": "llamaparse",
+          "extraction_model": "gemini-2.5-flash",
+          "extracted_at": "2026-04-11T16:48:44.796511+00:00",
+          "warnings": []
+        },
+        "_osint_targets": {
+          "candidate_name": "Viet Nguyen",
+          "social_links": {
+            "linkedin": null,
+            "github": null,
+            "facebook": null,
+            "portfolio": null,
+            "other": []
+          },
+          "project_links": [],
+          "employers": []
+        },
+        "_all_urls": []
+      }
+    }
+  ],
+  "total": 5,
+  "successful": 2
+}
