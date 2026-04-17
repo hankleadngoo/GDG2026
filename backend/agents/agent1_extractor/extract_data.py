@@ -1,10 +1,8 @@
-import os
 import json
 import logging
 import asyncio
 from pathlib import Path
 from tqdm.asyncio import tqdm
-from concurrent.futures import ThreadPoolExecutor
 
 from backend.agents.agent1_extractor.parser import parse_cv
 

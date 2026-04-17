@@ -3,7 +3,7 @@ import json
 import os
 from google import genai
 from google.genai import types
-from backend.agents.agent2_osint.crawler import crawl_github, crawl_portfolio, crawl_linkedin
+from backend.agents.agent2_osint.crawler import crawl_github, crawl_portfolio
 from backend.agents.agent2_osint.schema import Agent2Output, SocialProfileData, SummaryMetrics
 
 def analyze_expertise_with_ai(github_data):
@@ -46,7 +46,7 @@ def analyze_expertise_with_ai(github_data):
 
 def run_agent_2(agent_1_output):
     start_time = time.time()
-    extracted_links = agent_1_output.get("extracted_links", [])
+    extracted_links = agent_1_output.get("_osint_targets", [])
     
     profiles_data = []
     success_count = 0

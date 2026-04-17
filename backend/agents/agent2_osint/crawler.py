@@ -113,6 +113,7 @@ def crawl_portfolio(url):
         return {"status": "success", "error": None, "data": {"website_content": cleaned_text}}
     except Exception as e:
         return {"status": "failed_network_error", "error": str(e), "data": None}
+    
 def crawl_linkedin(url):
     """
     LinkedIn yêu cầu cơ chế đăng nhập và Proxy phức tạp.
