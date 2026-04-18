@@ -23,4 +23,4 @@ data/faiss_index/
 Thumbs.db
 
 # Frontend
-streamlit
+streamlit/main.py
